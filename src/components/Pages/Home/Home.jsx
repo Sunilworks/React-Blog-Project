@@ -96,21 +96,17 @@ function Article() {
               </>
             );
           })}
-        {/* <div className='ad-box'>
-          ADVERTISEMENT
-        </div> */}
       </div>
-
-
     </div>
   )
+
 }
+
 function Ads() {
   return (
     <div className='ad-box'>
       ADVERTISEMENT
     </div>
-
   )
 }
 
@@ -120,7 +116,6 @@ function Posts() {
   let date = d.toDateString();
 
   const [latestData] = useContext(Store);
-  console.log(latestData);
   return (
     <div className="post">
       <div>

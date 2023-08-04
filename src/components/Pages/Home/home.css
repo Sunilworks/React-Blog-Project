@@ -139,8 +139,7 @@ figcaption {
   border-color: rgba(0, 0, 0, 0.12);
 }
 
-.ad-box {
-  grid-column: 2/3;
+.Ads {
   position: absolute;
   top: 96rem;
   right: 2.5rem;

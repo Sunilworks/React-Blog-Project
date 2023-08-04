@@ -13,7 +13,7 @@ function Home() {
       <div className="home">
         <Latest />
         <Article />
-        <Ads />
+        {/* <Ads /> */}
         <Posts />
         <ImageSlide />
         <Stories />
@@ -96,21 +96,24 @@ function Article() {
               </>
             );
           })}
+        <div className='ad-box'>
+          ADVERTISEMENT
+        </div>
       </div>
     </div>
   )
 
 }
 
-function Ads() {
-  return (
-    <div className="Ads">
-      <div className='ad-box'>
-        ADVERTISEMENT
-      </div>
-    </div>
-  )
-}
+// function Ads() {
+//   return (
+//     <div className="Ads">
+//       <div className='ad-box'>
+//         ADVERTISEMENT
+//       </div>
+//     </div>
+//   )
+// }
 
 
 function Posts() {

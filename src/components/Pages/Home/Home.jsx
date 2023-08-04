@@ -28,7 +28,6 @@ function Latest() {
   let date = d.toDateString();
 
   const [latestData] = useContext(Store);
-  console.log(latestData);
   return (
     <div className="latest">
       <div>
@@ -93,14 +92,13 @@ function Article() {
                   </figcaption>
 
                 </div>
-                <div className='ad-box'>
-                  ADVERTISEMENT
-                </div>
               </>
             );
           })}
+        <div className='ad-box'>
+          ADVERTISEMENT
+        </div>
       </div>
-
 
 
     </div>

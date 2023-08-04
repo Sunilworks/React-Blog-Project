@@ -104,8 +104,10 @@ function Article() {
 
 function Ads() {
   return (
-    <div className='ad-box'>
-      ADVERTISEMENT
+    <div className="Ads">
+      <div className='ad-box'>
+        ADVERTISEMENT
+      </div>
     </div>
   )
 }

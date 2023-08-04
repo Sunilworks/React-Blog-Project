@@ -97,9 +97,7 @@ function Article() {
             );
           })}
       </div>
-      {/* <div className='ad-box'>
-        ADVERTISEMENT
-      </div> */}
+
     </div>
   )
 
@@ -108,9 +106,7 @@ function Article() {
 function Ads() {
   return (
     <div className="Ads">
-      <div className='ad-box'>
-        ADVERTISEMENT
-      </div>
+      ADVERTISEMENT
     </div>
   )
 }

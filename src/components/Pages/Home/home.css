@@ -142,6 +142,7 @@ figcaption {
 .ad-box {
   grid-column: 2/3;
   position: absolute;
+  top: 96rem;
   right: 3rem;
   display: flex;
   justify-content: center;

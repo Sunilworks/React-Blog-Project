@@ -13,6 +13,7 @@ function Home() {
       <div className="home">
         <Latest />
         <Article />
+        <Ads />
         <Posts />
         <ImageSlide />
         <Stories />
@@ -95,15 +96,24 @@ function Article() {
               </>
             );
           })}
-        <div className='ad-box'>
+        {/* <div className='ad-box'>
           ADVERTISEMENT
-        </div>
+        </div> */}
       </div>
 
 
     </div>
   )
 }
+function Ads() {
+  return (
+    <div className='ad-box'>
+      ADVERTISEMENT
+    </div>
+
+  )
+}
+
 
 function Posts() {
   const d = new Date();

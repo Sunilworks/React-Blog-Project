@@ -11,13 +11,12 @@ function App() {
       <div className="App">
         <BrowserRouter>
           <DataStore>
-            <Topbar />
+            {/* <Topbar /> */}
             <Routing />
           </DataStore>
         </BrowserRouter>
       </div>
-      <Footer />
-
+      {/* <Footer /> */}
     </>
   );
 }

@@ -141,7 +141,7 @@ figcaption {
 
 .Ads {
   position: absolute;
-  top: 96rem;
+  top: 87rem;
   right: 2.5rem;
   display: flex;
   justify-content: center;
@@ -165,7 +165,7 @@ figcaption {
   height: fit-content;
   position: absolute;
   right: 0;
-  top: 152rem;
+  top: 144rem;
   width: 30rem;
 }
 

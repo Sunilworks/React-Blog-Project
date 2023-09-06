@@ -1,6 +1,6 @@
 import "./topbar.css";
 import "../../App.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Topbar() {
   return (
@@ -15,22 +15,22 @@ function Topbar() {
         <div className="topCenter">
           <ul className="topList">
             <li className="topListItem">
-              <Link to="/"> Home </Link>
+              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/"> Home </NavLink>
             </li>
             <li className="topListItem">
-              <Link to="/Bollywood">Bollywood</Link>
+              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/Bollywood">Bollywood</NavLink>
             </li>
             <li className="topListItem">
-              <Link to="/Technology">Technology</Link>
+              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/Technology">Technology</NavLink>
             </li>
             <li className="topListItem">
-              <Link to="/Hollywood">Hollywood</Link>
+              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/Hollywood">Hollywood</NavLink>
             </li>
             <li className="topListItem">
-              <Link to="/Fitness">Fitness</Link>
+              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/Fitness">Fitness</NavLink>
             </li>
             <li className="topListItem">
-              <Link to="/Food">Food</Link>
+              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/Food">Food</NavLink>
             </li>
           </ul>
         </div>

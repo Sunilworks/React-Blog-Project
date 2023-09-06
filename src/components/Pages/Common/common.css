@@ -99,6 +99,12 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.ad-boxB img{
+  height: 52rem;
+  width: 24rem;
+  background-size: cover;
+}
+
 /* Post Css */
 .postB {
   box-sizing: border-box;

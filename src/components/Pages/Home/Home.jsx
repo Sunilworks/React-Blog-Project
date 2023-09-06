@@ -5,6 +5,7 @@ import { Store } from "../../Data/DataStore";
 import "./home.css"
 import Topbar from "../../Topbar/Topbar";
 import Footer from "../../Footer/Footer";
+import home from "../../Images/Home.jpg"
 
 
 function Home() {
@@ -110,7 +111,7 @@ function Article() {
 function Ads() {
   return (
     <div className="Ads">
-      ADVERTISEMENT
+       <img src={home} alt="bollywood" />
     </div>
   )
 }

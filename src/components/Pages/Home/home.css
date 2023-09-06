@@ -157,6 +157,12 @@ figcaption {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.Ads img{
+  height: 52rem;
+  width: 24rem;
+  background-size: cover;
+}
+
 /* Post Css */
 .post {
   box-sizing: border-box;

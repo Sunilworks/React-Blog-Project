@@ -3,12 +3,15 @@ import Header from "../../Header/Header";
 import SimpleImageSlider from "react-simple-image-slider";
 import { Store } from "../../Data/DataStore";
 import "./home.css"
+import Topbar from "../../Topbar/Topbar";
+import Footer from "../../Footer/Footer";
 
 
 function Home() {
 
   return (
     <>
+    <Topbar />
       <Header />
       <div className="home">
         <Latest />
@@ -18,6 +21,7 @@ function Home() {
         <ImageSlide />
         <Stories />
       </div>
+      <Footer />
     </>
   );
 }

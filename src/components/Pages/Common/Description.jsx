@@ -1,23 +1,34 @@
+import React,{useContext} from 'react'
 import "./description.css";
 import clap from "../../Images/rythm.svg";
 import share from "../../Images/share.svg";
 import profile from "../../Images/Mask Group 16.png";
 import { BsFacebook, BsTwitter, BsYoutube } from "react-icons/bs";
 import { RiInstagramFill } from "react-icons/ri";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
+import { Store } from "../../Data/DataStore";
 
 function Description() {
+
+  const {id} = useParams()
+  console.log(id);
+
   const d = new Date();
   let date = d.toDateString();
+
+  const [latestData] = useContext(Store);
+  console.log(latestData);
 
   let navigate = useNavigate();
   return (
     <>
       <div className="Dnav">
+          <Link to="/">
         <div className="logo">
           <span className="logo1">The</span>
           <span className="logo2">Siren</span>
         </div>
+          </Link>
         <div class="get-started">Get Started</div>
       </div>
 
@@ -34,10 +45,10 @@ function Description() {
         </div>
 
         <div className="centercontent">
-          <h2 class="contentheading">
+          <h1 class="contentheading">
             Ameesha Patel Reveals Drawback Of Gadar’s Monstrous Success: “…All
             Our Other Work Failed In Comparison To That”
-          </h2>
+          </h1>
           <div className="profile">
             <div className="avatar">
               <img src={profile} alt="profile" />
@@ -82,6 +93,33 @@ function Description() {
 
           <button onClick={() => navigate(-1)}>Back</button>
         </div>
+      </div>
+
+      <div className="morecontent">
+        <div>
+      <span className="heading">More Stories From Siren</span>
+        <div className="ruler1"></div>
+      </div>
+
+      <div className="articlesHorizontal">
+        {latestData
+          .filter((item) => item.cat === "Story")
+          .map((data) => {
+            return (
+              <div className="lat1">
+                <img src={data.image} alt="Technology" />
+                <figcaption>
+                  <a href="https://techcrunch.com/2023/07/27/a-high-tech-third-eye-for-neurosurgeons-proprio-could-change-the-or-forever/">
+                    {data.heading}
+                  </a>
+                  <p>{data.description}</p>
+                  <span className="bold">{data.footer}</span>
+                  <span> / {date}</span>
+                </figcaption>
+              </div>
+            );
+          })}
+      </div>
       </div>
     </>
   );

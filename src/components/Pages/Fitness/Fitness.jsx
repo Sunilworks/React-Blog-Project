@@ -2,13 +2,17 @@ import React, { useContext } from "react";
 import { Store } from "../../Data/DataStore";
 import { useNavigate } from "react-router-dom";
 import "../Common/common.css"
+import Topbar from "../../Topbar/Topbar";
+import Footer from "../../Footer/Footer";
 
 function Fitness() {
   return (
     <div className="home">
+      <Topbar />
       <Article />
       <Posts />
       <Ads />
+      <Footer />
     </div>
   )
 }

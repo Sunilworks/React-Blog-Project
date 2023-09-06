@@ -32,9 +32,6 @@ function Topbar() {
             <li className="topListItem">
               <Link to="/Food">Food</Link>
             </li>
-            <li className="topListItem">
-              <Link to="/Description">Description</Link>
-            </li>
           </ul>
         </div>
         <div className="topRight">

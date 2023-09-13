@@ -1,3 +1,4 @@
+
 /* Latest Css */
 .latest {
   width: 100%;
@@ -9,12 +10,13 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 40px;
+  margin-left: 2rem;
 }
 
 .ruler1 {
   border: 2px solid #f08080;
   width: 8%;
-  margin: 6px 0 0 6px;
+  margin: 6px 0 0 32px;
 }
 
 .articlesHorizontal {
@@ -41,6 +43,7 @@
 
 figcaption {
   margin-top: 10px;
+  margin-left: 10px;
   text-align: left;
   font: normal normal normal 17px/23px Open Sans;
   letter-spacing: 0px;
@@ -216,6 +219,7 @@ figcaption {
   width: 46.8rem;
   height: 28rem;
   margin-top: 4rem;
+  margin-left: 2rem;
   box-shadow: 0 0 10px 2px rgb(179, 151, 151);
 }
 

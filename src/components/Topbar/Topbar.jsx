@@ -18,24 +18,24 @@ function Topbar() {
               <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/"> Home </NavLink>
             </li>
             <li className="topListItem">
-              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/Bollywood">Bollywood</NavLink>
+              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/bollywood">Bollywood</NavLink>
             </li>
             <li className="topListItem">
-              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/Technology">Technology</NavLink>
+              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/technology">Technology</NavLink>
             </li>
             <li className="topListItem">
-              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/Hollywood">Hollywood</NavLink>
+              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/hollywood">Hollywood</NavLink>
             </li>
             <li className="topListItem">
-              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/Fitness">Fitness</NavLink>
+              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/fitness">Fitness</NavLink>
             </li>
             <li className="topListItem">
-              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/Food">Food</NavLink>
+              <NavLink style={({isActive}) =>({color: isActive ? "grey" : "black"})} to="/food">Food</NavLink>
             </li>
           </ul>
         </div>
         <div className="topRight">
-          <span class="material-symbols-outlined">Person</span>
+          <span></span>
         </div>
       </div>
 

@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import "../Common/common.css"
 import Topbar from "../../Topbar/Topbar";
 import Footer from "../../Footer/Footer";
-import food from "../../Images/Food.jpg"
 
 function Food() {
   return (
@@ -113,7 +112,7 @@ function Posts() {
 function Ads() {
   return (
     <div className='ad-boxB'>
-       <img src={food} alt="food" />
+       <img src="https://i.pinimg.com/originals/06/9d/61/069d617dca720be2d65014963515d28e.gif" alt="food" />
     </div>
 
   )

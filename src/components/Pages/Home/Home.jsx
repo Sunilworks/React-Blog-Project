@@ -5,7 +5,6 @@ import { Store } from "../../Data/DataStore";
 import "./home.css"
 import Topbar from "../../Topbar/Topbar";
 import Footer from "../../Footer/Footer";
-import home from "../../Images/Home.jpg"
 
 
 function Home() {
@@ -111,7 +110,7 @@ function Article() {
 function Ads() {
   return (
     <div className="Ads">
-       <img src={home} alt="bollywood" />
+       <img src="https://www.gifcen.com/wp-content/uploads/2022/01/tom-and-jerry-gif-6.gif" alt="bollywood" />
     </div>
   )
 }

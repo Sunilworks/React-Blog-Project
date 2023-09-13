@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import "../Common/common.css"
 import Topbar from "../../Topbar/Topbar";
 import Footer from "../../Footer/Footer";
-import bollywood from "../../Images/Bollywood.jpg"
 
 function Bollywood() {
   return (
@@ -110,7 +109,7 @@ function Posts() {
 function Ads() {
   return (
     <div className='ad-boxB'>
-      <img src={bollywood} alt="bollywood" />
+      <img src="https://i.pinimg.com/originals/c5/80/0c/c5800ca68d498e52edd37bd4fe18cc15.gif" alt="bollywood" />
     </div>
 
   )

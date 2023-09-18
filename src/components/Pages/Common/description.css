@@ -54,7 +54,7 @@
   position: absolute;
   top: 6rem;
   width: 95%;
-  min-height: 50rem;
+  max-height: 50rem;
   display: flex;
   justify-content: center;
 }
@@ -150,11 +150,8 @@
   font-size: 20px;
   font-weight: 600;
   line-height: normal;
-  margin: 0;
   min-height: 50px;
-  min-width: 0;
   outline: none;
-  /* padding: 12px 14px; */
   margin-left: 10rem;
   text-align: center;
   text-decoration: none;
@@ -164,7 +161,8 @@
   touch-action: manipulation;
   width: 30%;
   will-change: transform;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .centercontent button:disabled {
@@ -187,7 +185,7 @@ button:active {
 .morecontent {
   width: 95%;
   position: absolute;
-  top: 67rem;
+  top: 70rem;
   /* border: 2px solid green; */
 }
 .articlesHorizontal {

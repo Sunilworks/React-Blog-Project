@@ -22,6 +22,7 @@
 .articleB {
   width: 100%;
   margin-top: 3rem;
+  margin-left: 1rem;
 }
 
 .articlesvertical {
@@ -84,7 +85,7 @@
   grid-column: 2/3;
   position: absolute;
   top: 63rem;
-  right: 3rem;
+  right: 2rem;
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
@@ -112,7 +113,7 @@
   height: -moz-fit-content;
   height: fit-content;
   position: absolute;
-  right: 0;
+  right: -1.6rem;
   top: 13.7rem;
   width: 30rem;
 }

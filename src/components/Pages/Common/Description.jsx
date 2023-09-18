@@ -71,8 +71,7 @@ function Description() {
                     </div>
                   </div>
                   <img className="img" src={data.image} alt="gadar 2" />
-                  <p className="des">{data.description.slice(0,760)}</p>
-
+                  <p className="des">{data.description.slice(0, 760)}</p>
                   <div className="profile">
                     <div className="avatar">
                       <img src={profile} alt="profile" />
@@ -97,18 +96,20 @@ function Description() {
           <div className="ruler1"></div>
         </div>
 
-        <div className="articlesHorizontal" >
+        <div className="articlesHorizontal">
           {latestData
-            .filter((item) => item.category === cat && item.id !== parseInt(path))
+            .filter(
+              (item) => item.category === cat && item.id !== parseInt(path)
+            )
             .slice(random, random + 3)
-            .map((data,index) => {
+            .map((data, index) => {
               return (
                 <NavLink to={`/description/${data.id}`} className="navl">
                   <div className="lat1" key={index}>
                     <img src={data.image} alt="Technology" />
                     <figcaption>
-                      <a href="#!">{data.heading.slice(0,40)}</a>
-                      <p>{data.description.slice(0,150)}</p>
+                      <a href="#!">{data.heading.slice(0, 40)}</a>
+                      <p>{data.description.slice(0, 150)}</p>
                       <span className="bold">{data.footer}</span>
                       <span> / {date}</span>
                     </figcaption>

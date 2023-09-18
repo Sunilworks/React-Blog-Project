@@ -71,7 +71,7 @@ function Description() {
                     </div>
                   </div>
                   <img className="img" src={data.image} alt="gadar 2" />
-                  <p className="des">{data.description.slice(0, 760)}</p>
+                  <p className="des">{data.description.slice(0, 1200)}</p>
                   <div className="profile">
                     <div className="avatar">
                       <img src={profile} alt="profile" />

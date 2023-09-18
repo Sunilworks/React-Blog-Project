@@ -265,7 +265,7 @@ function DataStore(props) {
       url: "https://www.koimoi.com/bollywood-news/ap-dhillon-first-of-a-kind-a-docu-series-on-the-life-of-the-brown-munde-singer-announced/",
     },
     {
-      id: 65,
+      id: 25,
       heading:'The Kashmir Files',
       image:'https://images.firstpost.com/wp-content/uploads/2022/02/the-kashmir-files-.jpg',
       description:"The Kashmir Files stars Mithun Chakraborty, Anupam Kher, Darshan Kumar, and Pallavi Joshi.[19] The plot follows a Kashmiri Hindu college student, raised by his exiled grandfather and shielded from the knowledge of the circumstances of the death of his parents. After his grandfather's death, the student, who had come to believe at college that the exodus was benign, becomes driven to uncover the facts of his family's deaths. The plot alternates between the student's quest in the present time, 2020, and his family's travails of thirty years before. The film was released in theatres on 11 March 2022.[6] It has been a commercial success,[1][20] seemingly benefitting from promotion by India's ruling Hindu nationalist Bharatiya Janata Party (BJP) and tax benefits",
@@ -275,7 +275,7 @@ function DataStore(props) {
       url: "https://www.koimoi.com/bollywood-news/ap-dhillon-first-of-a-kind-a-docu-series-on-the-life-of-the-brown-munde-singer-announced/",
     },
     {
-      id: 66,
+      id: 26,
       heading:"Ganapath Movie (2023)",
       image:"https://m.media-amazon.com/images/M/MV5BMmVkM2RjODgtMWY2NC00MTU1LTgyMTEtMmE2YmVkOTgwN2I4XkEyXkFqcGdeQXVyMTA5NzIyMDY5._V1_.jpg",
       description:"Ganapath Part-1 is an upcoming action movie that stars Kriti Sanon and Tiger Shroff in the lead roles. The duo has reunited for the first time after their debut movie, Heropanti (2014).The film is currently under the direction of Vikas Bahl. The producers of the movie include Vashu Bhagnani, Jackky Bhagnani, Deepshikha Deshmukh and Vikas Bahl.Stay tuned for more updates related to the soundtrack, trailer, reviews, and much more!",
@@ -288,7 +288,7 @@ function DataStore(props) {
     //Data for Technology Page
     //Technology 25-30
     {
-      id: 25,
+      id: 27,
       heading: "India resurrects data privacy bill following abrupt pullback last year",
       image: "https://techcrunch.com/wp-content/uploads/2023/08/indian-parliament-new-getty.jpg?w=430&h=230&crop=1",
       description: "Ashwini Vaishnaw, the IT minister of India, resubmitted an updated data privacy bill in lower house of the Indian parliament on Thursday, months after introducing its last draft and the abrupt withdrawal of a previous proposal last year following pushback from tech giants, even as many members protested the new bill, alleging it violated the right to privacy.",
@@ -298,7 +298,7 @@ function DataStore(props) {
       url: "https://techcrunch.com/2023/08/03/india-digital-personal-data-protection-bill-2023/",
     },
     {
-      id: 26,
+      id: 28,
       heading: "Waymo is bringing its robotaxi service to Austin",
       image: "https://techcrunch.com/wp-content/uploads/2023/08/Waymo_Austin.jpg?w=1390&crop=1",
       description: "Waymo plans to launch a robotaxi service in Austin  — putting the company once again in direct competition with rival Cruise.",
@@ -308,7 +308,7 @@ function DataStore(props) {
       url: "https://techcrunch.com/2023/08/03/waymo-is-bringing-its-robotaxi-service-to-austin/",
     },
     {
-      id: 27,
+      id: 29,
       heading: "Xiaomi removes its Mi Music app from the Play Store",
       image: "https://techcrunch.com/wp-content/uploads/2022/10/xiaomi-india-financial-services.jpg?w=1390&crop=1",
       description: "Xiaomi has silently pulled its music player and streaming app Mi Music from the Play Store in India, continuing its shutdown of various services in the country where it is under regulatory pressure.",
@@ -318,7 +318,7 @@ function DataStore(props) {
       url: "https://techcrunch.com/2023/08/03/xiaomi-removes-its-mi-music-app-from-the-play-store/",
     },
     {
-      id: 28,
+      id: 30,
       heading: "AFP sues Musk’s X for refusing to enter news reuse payment talks",
       image: "https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1258742140.jpg?w=1390&crop=1",
       description: "Elon Musk-owned X, formerly Twitter, is facing legal action brought under copyright law in France. The Agence France-Presse (AFP) news agency has announced it’s suing the social media platform over what it calls a “clear refusal” to enter into discussions with it about remuneration for the sharing of its news content on X.",
@@ -328,7 +328,7 @@ function DataStore(props) {
       url: "https://techcrunch.com/2023/08/03/afp-sues-x/",
     },
     {
-      id: 29,
+      id: 31,
       heading: "Emtech to advance its regtech and CBDC stack solutions with $4M led by Matrix Partners India",
       image: "https://techcrunch.com/wp-content/uploads/2022/03/Carmelle_Cadet.-Emtech-Founder-and-CEO-jpg.jpg?w=1390&crop=1",
       description: "Emtech, an African provider of central banking infrastructure, introduced its Central Bank Digital Currency (CBDC) Innovation kit last month. The kit caters to fintechs and financial service providers interested in experimenting with solutions and business models based on digital currencies pioneered by central banks.",
@@ -338,7 +338,7 @@ function DataStore(props) {
       url: "https://techcrunch.com/2023/08/03/emtech-raises-4m-led-by-matrix-partners-india/",
     },
     {
-      id: 30,
+      id: 32,
       heading: "India restricts import of laptop, tablets and servers",
       image: "https://techcrunch.com/wp-content/uploads/2023/08/indian-parliament-getty.jpg?w=1390&crop=1",
       description: "India restricted import of laptops, tablets, other personal computers and servers with immediate effect on Thursday, the Ministry of Commerce and Industry said in an amendment, saying it will impose a licensing requirement for imports in a move that analysts say appears to be aimed at boosting the local manufacturing efforts.",
@@ -349,7 +349,7 @@ function DataStore(props) {
     },
     //Data for Technology Top Posts 31 -34
     {
-      id: 31,
+      id: 33,
       heading: "HackerOne lays off 12% workforce as ‘one-time event’",
       image: "https://techcrunch.com/wp-content/uploads/2023/08/hackerone.jpg?w=1390&crop=1",
       description: "HackerOne, a widely known bug bounty and penetration testing platform, is cutting up to 12% of its workforce as the global economic slowdown continues to impact the tech community.The San Francisco- based startup announced its layoffs on Wednesday, TechCrunch learned and confirmed with the startup.The decision will impact the startup’s employees worldwide, including those in the U.S., Canada, the U.K., Netherlands and other countries, HackerOne CEO Marten Mickos said in an email to employees, which was also posted to the company’s blog.“This comes as disappointing news, as we’ve all built strong connections with our fellow Hackeronies.These actions are necessary to be successful long - term,” said Mickos. “We’ve designed this reduction in force as a one - time event.We don’t claim to have perfect visibility into our future financial performance or the macroeconomic climate, but we unequivocally wanted to take a single action and move forward with confidence.”",
@@ -359,7 +359,7 @@ function DataStore(props) {
       url: "https://techcrunch.com/2023/08/02/hackerone-layoffs/",
     },
     {
-      id: 32,
+      id: 34,
       heading: "Mondee security lapse exposed flight itineraries and unencrypted credit card numbers",
       image: "https://techcrunch.com/wp-content/uploads/2023/08/airport-departure-board-getty.jpg?w=1390&crop=1",
       description: "Travel giant Mondee has secured an exposed database that was spilling sensitive customer information, including detailed flight and hotel itineraries and unencrypted credit card numbers. Anurag Sen, a good-faith security researcher known for discovering inadvertently exposed data on the internet, found the database and shared details with TechCrunch to alert the company. According to Sen, the database was exposed to the internet without a password, allowing anyone to access the sensitive data inside using a web browser, just with its IP address. TechCrunch found that the database was also accessible from an easily guessable subdomain of a Mondee subsidiary’s website. ",
@@ -369,7 +369,7 @@ function DataStore(props) {
       url: "https://techcrunch.com/2023/08/02/mondee-data-exposed-credit-cards-flight-itineraries/",
     },
     {
-      id: 33,
+      id: 35,
       heading: "Xpeng’s head of autonomous driving quits, rumored to join Nvidia",
       image: "https://techcrunch.com/wp-content/uploads/2020/08/GettyImages-1164217159.jpg?w=1390&crop=1",
       description: "Xpeng, a prominent Chinese electric vehicle maker and a competitor to Tesla, has announced the resignation of its vice president of autonomous driving, Xinzhou Wu, over personal and family reasons. Wu, formerly a senior director of engineering at Qualcomm where he spent over a decade, was effectively the head of Xpeng’s autonomous driving business and played a pivotal role in helping Xpeng gain an edge over its EV rivals in the intelligent driving race. The NYSE-listed EV upstart is recognized for its in-house, full-stack development team responsible for creating the advanced driver assistance system (ADAS) Xpeng Navigation Guided Pilot (XNPG), which is considered a counterpart to Tesla’s Full Self-Driving (FSD) system.",
@@ -379,7 +379,7 @@ function DataStore(props) {
       url: "https://techcrunch.com/2023/08/02/xpengs-head-of-autonomous-driving-resigns-rumored-to-join-nvidia/",
     },
     {
-      id: 34,
+      id: 36,
       heading: "Google’s generative search feature now shows related videos and images",
       image: "https://techcrunch.com/wp-content/uploads/2021/07/GettyImages-1207206237.jpg?w=1390&crop=1",
       description: "Google is adding contextual images and videos to its AI-powered Search Generative Experiment (SGE), the generative AI-powered search feature announced at May’s I/O conference. Later in the month, the company made the feature available to select users who signed up for the experiment through Google Labs.With the updates, SGE now shows images or videos related to the search query. For instance, if you are looking for “tiniest birds of prey” or “how to remove marble stains,” you will see pictures of birds or videos related to stain removal directly in the generative search suggestion box.Google said that it is also now showing the date of publishing for links that are suggested by SGE.",
@@ -389,144 +389,144 @@ function DataStore(props) {
       url: "https://techcrunch.com/2023/08/02/googles-generative-search-feature-now-shows-related-videos-and-images/",
     },
     {
-      id:67,
+      id:37,
       heading:"Speak Out Against Bills That Threaten End-to-End Encryption",
       image:"https://www.internetsociety.org/wp-content/uploads/2023/06/Dont-Walk-Image-scaled.jpg",
       description:"When the U.S. Supreme Court overturned Roe v. Wade in 2022, Americans lost their constitutional right to an abortion. Suddenly, law enforcement could use private conversations, period tracking app data, or even Google search history about getting an abortion as evidence in a state where it’s illegal to incriminate the person seeking it.Conversations about seeking reproductive healthcare can be private and secure, if they happen on a messaging app or platform that uses end-to-end encryption, and if we resist government attempts to break encryption.Encryption is a fundamental part of how stay safe online and offline. How it protects people trying to seek reproductive healthcare care is just one example.",
-      category:"none", 
+      category:"Technology", 
     },
     {
-    id:68,
+    id:38,
       heading:"LEO Satellites for Internet—Why the Next Two Years Are Critical",
       image:"https://www.internetsociety.org/wp-content/uploads/2022/03/leo-sats-2-min.jpg",
       smalldes:"Can low Earth orbit satellites that provide Internet access help close the digital divide, or will they create more challenges? Our paper explores these questions ...",
       description:"We see considerable potential in the use of LEO satellites for Internet access for unserved or under-served communities, especially where there are few other ways of delivering Internet access. We also see great potential for Internet access to communities affected by natural or human disaster, and to increase the overall resilience of Internet connectivity. But there’s one big caveat. As of late 2022, most LEO constellations are in early stages of deployment and there are still many unknowns.As the LEO-based industry matures over the next few years, we must guide the discussion and shape the future of this new form of Internet access—to protect the Internet and help make sure this emerging technology can serve the people who need it most.",
-      category:"technology",
+      category:"Technology",
     },
 
     //Data for Hollywood Page
     //Hollywood 35-40
     {
-      id: 35,
+      id: 39,
       heading: "How the wave of 'Oppenheimer' and 'Barbie' impacted Tom Cruise's 'Mission: Impossible 7' at the box-office | Explained",
       image: "https://images.firstpost.com/wp-content/uploads/2023/07/oppenbab.jpg?impolicy=website&width=640&height=363",
       description: "Mission: Impossible – Dead Reckoning Part One opened worldwide on July 12 and Oppenheimer and Barbie came out merely nine days later, thus denting the commercial prospects of Cruise's juggernaut",
       footer: "Entertainment",
       cat: "HArticle",
-      category:"Hollwood",
+      category:"Hollywood",
       url: "https://www.firstpost.com/entertainment/how-the-wave-of-oppenheimer-and-barbie-impacted-tom-cruises-mission-impossible-7-at-the-box-office-explained-12928852.html",
     },
     {
-      id: 36,
+      id: 40,
       heading: "Cruella movie review: Emma Stone tries, but misses the mark",
       image: "https://www.firstpost.com/wp-content/uploads/2021/08/Emma-Stone-as-Estella.-Disney.jpg",
       description: "Cruella is Disney's latest efforts to reintroduce old characters, and contemporise them for the new, younger generation of moviegoers. It's not a memorable one, that's for sure.",
       footer: "Entertainment",
       cat: "HArticle",
-      category:"Hollwood",
+      category:"Hollywood",
       url: "https://www.firstpost.com/entertainment/cruella-movie-review-emma-stone-tries-but-misses-the-mark-9923301.html",
     },
     {
-      id: 37,
+      id: 41,
       heading: "Does Christopher Nolan's Oppenheimer & Ryan Gosling-Margot Robbie's Barbie have a real shot at the Oscars 2024?",
       image: "https://images.firstpost.com/wp-content/uploads/2023/07/Collage-Maker-27-Jul-2023-03-45-PM-8580.jpg?impolicy=website&width=640&height=363",
       description: "Amidst high expectations and humongous buzz, maverick filmmaker Christopher Nolan’s Oppenheimer and Greta Gerwig’s Barbie arrived at the box office and made the cash registers ringing across the globe by doing insane business.",
       footer: "Entertainment",
       cat: "HArticle",
-      category:"Hollwood",
+      category:"Hollywood",
       url: "https://www.firstpost.com/entertainment/does-christopher-nolans-oppenheimer-ryan-gosling-margot-robbies-barbie-have-a-real-shot-at-the-oscars-2024-12922702.html",
     },
     {
-      id: 38,
+      id: 42,
       heading: "The Venice Film Festival 2023 is all set to take place from August 30 to September 9. This happens at a time when Hollywood is at the center of the writers and actors’ strike.",
       image: "https://images.firstpost.com/wp-content/uploads/2023/07/venic.jpg?impolicy=website&width=640&height=363",
       description: "The Venice Film Festival 2023 is all set to take place from August 30 to September 9. This happens at a time when Hollywood is at the center of the writers and actors’ strike.",
       footer: "RedCarpet",
       cat: "HArticle",
-      category:"Hollwood",
+      category:"Hollywood",
       url: "https://www.firstpost.com/entertainment/how-the-hollywood-strike-has-kept-the-venice-film-festival-2023-unfazed-explained-12921842.html",
     },
     {
-      id: 39,
+      id: 43,
       heading: "‘Hollywood’s troubles become our troubles’: How the actors’ and writers’ strike is affecting life in Los Angeles",
       image: "https://images.firstpost.com/wp-content/uploads/2023/07/2023-07-14T172515Z_921456280_RC2432ARO8SD_RTRMADP_3_TELEVISION-ACTORS.jpg?impolicy=website&width=640&height=363",
       description: "The ceased productions are not just a threat to the flow of dollars to restaurants and retailers that cater to film crews, but also a blow to the region’s cultural heart. Entertainers sponsor schools, embark on second careers as politicians, and stump for state ballot initiatives",
       footer: "Strike",
       cat: "HArticle",
-      category:"Hollwood",
+      category:"Hollywood",
       url: "https://www.firstpost.com/explainers/hollywoods-troubles-become-our-troubles-how-the-actors-and-writers-strike-is-affecting-life-in-los-angeles-12875002.html",
     },
     {
-      id: 40,
+      id: 44,
       heading: "7 Hollywood actors who couldn’t handle fame and went crazy",
       image: "https://images.firstpost.com/wp-content/uploads/2023/06/image-11-1.jpg?impolicy=website&width=640&height=363",
       description: "Not everyone is equipped to handle the pressures that come with fame. In some cases, the intense spotlight and constant scrutiny can take a toll on an individual's mental well-being",
       footer: "Lifestyle",
       cat: "HArticle",
-      category:"Hollwood",
+      category:"Hollywood",
       url: "https://www.firstpost.com/living/7-hollywood-actors-who-couldnt-handle-fame-and-went-crazy-12796172.html",
     },
     //Data for Hollywood Top Posts 41 -44
     {
-      id: 41,
+      id: 45,
       heading: "Oppenheimer movie review: ",
       image: "https://images.firstpost.com/wp-content/uploads/2023/07/Collage-Maker-20-Jul-2023-08-54-AM-406.jpg?impolicy=website&width=640&height=363",
       description: "The cinematic genius Christopher Nolan is one of the best minds in showbiz when it comes to delivering riveting, epic and extraordinary movies; The Prestige, Memento, The Dark Knight trilogy, Interstellar, Inception, Dunkirk & Tenet are classic examples of that. Talking about his new offering Oppenheimer, it narrates the magnificent tragic story of the American theoretical physicist J. Robert Oppenheimer (who is known as the ‘father of the atomic bomb’). Honestly, Oppenheimer has all the elements, which you expect from a Nolan film. Right from a haunting BGM, impeccable camerawork, emotional drama and twists with the superb combination of cerebral stuff and gripping, however, it gives you the experience of a non-Nolan affair.",
       footer: "Review",
       cat: "HPost",
-      category:"Hollwood",
+      category:"Hollywood",
       url: "https://www.firstpost.com/entertainment/oppenheimer-movie-review-christopher-nolan-cillian-murphy-deliver-a-riveting-story-of-the-american-genius-12889142.html",
     },
     {
-      id: 42,
+      id: 46,
       heading: "Priyanka Chopra’s Citadel 2",
       image: "https://images.firstpost.com/wp-content/uploads/2023/04/citabook.jpg?impolicy=website&width=640&height=363",
       description: "Earlier there were news that Priyanka Chopra’s Citadel will be coming up with its Season 2.  But later according to reports published in Hello magazine it was written that that Citadel has not officially been greenlit for a season 2. A report in Forbes, quotes the reason for the same.The report states that Citadel might have had a good viewership and it booked the top spot on Prime, but the reason was majorly a scarcity for Prime Originals which made Citadel trend on their list.Makers are sure that the series would grab a lot of headlines due to Priyanka Chopra Jonas but it was all about her professional and personal life, rather than about the show which put a serious question on the future of the $300 million series.But the speculation is still on.",
       footer: "Review",
       cat: "HPost",
-      category:"Hollwood",
+      category:"Hollywood",
       url: "https://www.firstpost.com/entertainment/priyanka-chopras-citadel-2-why-300-million-budget-show-of-the-russo-brothers-lost-the-sequel-chances-explained-12645582.html",
     },
     {
-      id: 43,
+      id: 47,
       heading: " Spider- Man: Across The Spider - Verse",
       image: "https://images.firstpost.com/wp-content/uploads/2023/05/versemaid.jpg?impolicy=website&width=640&height=363",
       description: "Spider-Man: Across The Spider-Verse is still some days away from its date with the global box office on June 2, though fans in India are already excited having watched the initial teaser. The trailer introduces to big screen the character of Pavitr Prabhakar, or Spider-Man India, who lives in Mumbattan city in an alternate universe. While the animated film’s core plot will concentrate on Miles Morales, the Black Spider-Man, and his new adventure across the multiverse, Pavitr’s funny jab in the trailer at Miles over ‘chai’ and at Mumbai’s famed traffic woes are winning desi fans over. A Brown Spider- Man from another universe playing a cameo in a film that stars Spider - Man as a Black teenager takes Hollywood inclusivity to the next level.This is, after all, the second time Miles gets into the Spider suit, after 2018’s Spider - Man: Into The Spider - Verse.The new sequel, however, raises the stakes a lot higher.The film’s director trio of Joaquim Dos Santos, Kemp Powers and Justin K.Thompson has substantially widened the scope and challenge for their Black superhero this time, taking the new adventure across several parallel universes, as Miles along with Gwen Stacy as Spider - Woman comes across a new team of Spider - People known as the Spider - Society.",
       footer: "Entertainment",
       cat: "HPost",
-      category:"Hollwood",
+      category:"Hollywood",
       url: "https://www.firstpost.com/entertainment/spider-man-across-the-spider-verse-the-little-mermaid-take-hollywood-inclusivity-to-next-level-12644102.html",
     },
     {
-      id: 44,
+      id: 48,
       heading: "Decoding the toxicity around Harry & Meghan's marriage: Experts say; 'all is not well'",
       image: "https://images.firstpost.com/wp-content/uploads/2022/12/harry-and-meghan1.jpg?impolicy=website&width=640&height=363",
       description: "Looks like Harry and Meghan’s marriage is going through a rough phase. According to GeoTv report, Prince Harry and Meghan Markle seem to be heading in different directions five years after their marriage, according to an article published on the fifth wedding anniversary of the Duke and Duchess of Sussex. In fact, according to sources, Prince Harry has a separate room to get away from Meghan Markle. As per reports a royal commentators believe all is not well in the Sussexs’ marriage.Eagle - eyed observers say the couple did not release a family photograph on Christmas and Harry was seen promoting his book “Spare” without Meghan by his side earlier this year. They think no acknowledgment of their five- year wedding anniversary, Harry’s solo appearance at the coronation of King Charles and Meghan’s solo brand relaunch with WME are enough of evidence to corroborate their claims that the marriage of Prince Harry and Meghan Markle is on the rocks.",
       footer: "Google",
       cat: "HPost",
-      category:"Hollwood",
+      category:"Hollywood",
       url: "https://www.firstpost.com/entertainment/all-not-well-in-harry-meghans-marriage-experts-say-haary-meghans-divorce-12638482.html",
     },
     {
-      id:69,
+      id:49,
       heading:"Avengers: Endgame",
       image:"https://staticg.sportskeeda.com/editor/2023/03/92b29-16793102370254-1920.jpg?w=840",
       description:"Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the direct sequel to Avengers: Infinity War (2018) and the 22nd film in the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo and written by Christopher Markus and Stephen McFeely, the film features an ensemble cast including Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin. In the film, the surviving members of the Avengers and their allies attempt to reverse Thanos's actions in Infinity War.",
-      category:"none",
+      category:"Hollywood",
     },
     {
-      id:70,
+      id:50,
       heading:"The Dark Knight Rises (2012)",
       image:"https://c4.wallpaperflare.com/wallpaper/87/516/862/batman-the-dark-knight-rises-batman-the-dark-knight-rises-poster-wallpaper-preview.jpg",
       smalldes:"The Dark Knight Rises is a 2012 superhero film directed by Christopher Nolan, who co-wrote the screenplay with his brother Jonathan Nolan, and the story with David S. Goyer.[5] Based on the DC Comics character Batman.",
       description:"The Dark Knight Rises is a 2012 superhero film directed by Christopher Nolan, who co-wrote the screenplay with his brother Jonathan Nolan, and the story with David S. Goyer.[5] Based on the DC Comics character Batman, it is the final installment in Nolan's The Dark Knight trilogy, and the sequel to The Dark Knight (2008). The film stars Christian Bale as Bruce Wayne / Batman, alongside Michael Caine, Gary Oldman, Anne Hathaway, Tom Hardy, Marion Cotillard, Joseph Gordon-Levitt, and Morgan Freeman. Eight years after the events of The Dark Knight, the terrorist Bane forces Bruce Wayne to resume his role as Batman and save Gotham City from nuclear destruction.The Dark Knight Rises premiered in New York City on July 16, 2012. The film was released in the United States and the United Kingdom on July 20, 2012. The film received positive reviews from critics who deemed it a satisfying conclusion to the trilogy. The film grossed over $1 billion worldwide, making it the second film in the Batman film series to earn $1 billion, and the highest-grossing Batman film to date.[6] In addition to being Nolan's highest-grossing film, it became the seventh-highest-grossing film of all time at the time of its release, as well as the third-highest-grossing film of 2012. It was named one of the top 10 films of 2012 by the American Film Institute.",
-      category:"none",
+      category:"Hollywood",
     },
 
     //Data for Fitness Page
     //Fitness 45-50
     {
-      id: 45,
+      id: 51,
       heading: "A 30 (ish)-Minute, Low-Impact, Cardio Pool Workout",
       image: "https://images.everydayhealth.com/images/low-impact-cardio-pool-workout-1440x810.jpg?w=1110",
       description: "For this workout, water provides natural resistance — or if you’re looking to take it up a notch, use aquatic dumbbells (which provide extra resistance).",
@@ -536,7 +536,7 @@ function DataStore(props) {
       url: "https://www.everydayhealth.com/fitness/low-impact-cardio-pool-workout/",
     },
     {
-      id: 46,
+      id: 52,
       heading: "CThe 8 Best Exercises for Stronger Obliques",
       image: "https://images.everydayhealth.com/images/ehfc-oblique-workout-header-1440x810.jpg?w=1110",
       description: "Your oblique muscles play an important role in good body posture, balance, and coordination. The right exercises will help you keep them strong.",
@@ -546,7 +546,7 @@ function DataStore(props) {
       url: "https://www.firstpost.com/entertainment/cruella-movie-review-emma-stone-tries-but-misses-the-mark-9923301.html",
     },
     {
-      id: 47,
+      id: 53,
       heading: "Yoga Mats, Straps, Bolsters to Aid Your Practice",
       image: "https://images.everydayhealth.com/images/guide-to-yoga-props-00-722x406.jpg?w=370&crop=1",
       description: "When yoga first began, thousands of years ago, the only “equipment” needed was the human body and the ground.",
@@ -556,7 +556,7 @@ function DataStore(props) {
       url: "https://www.everydayhealth.com/yoga/mats-straps-bolsters-and-other-props-to-aid-your-practice/",
     },
     {
-      id: 48,
+      id: 54,
       heading: "9 Ways Practicing Yoga Benefits Your Health and Well-Being",
       image: "https://images.everydayhealth.com/images/health-benefits-of-yoga-00-722x406.jpg?w=768",
       description: "Yoga can improve muscle tone and flexibility. Did you know it can also help manage chronic disease symptoms for people with asthma, multiple sclerosis, and arthritis? ",
@@ -566,7 +566,7 @@ function DataStore(props) {
       url: "https://www.everydayhealth.com/fitness-pictures/10-surprising-health-perks-of-yoga.aspx",
     },
     {
-      id: 49,
+      id: 55,
       heading: "10 Ways Sleep Apnea Can Be Harmful to Your Health",
       image: "https://images.everydayhealth.com/images/sleep-disorders/sleep/cs-ways-sleep-apnea-can-be-harmful-to-your-health-722x406.jpg?w=1110",
       description: "Sleep apnea can increase your odds of developing a wide array of health problems, such as heart disease, high blood pressure, diabetes, and depression.",
@@ -576,7 +576,7 @@ function DataStore(props) {
       url: "https://www.everydayhealth.com/sleep/how-sleep-apnea-harms-health/",
     },
     {
-      id: 50,
+      id: 56,
       heading: "Power Naps: The Benefits, How Long They Should Be, and When They Work Best",
       image: "https://images.everydayhealth.com/images/power-naps-the-benefits-how-long-they-should-be-and-when-they-work-best-1440x810.jpg?w=1110",
       description: "Not everyone is equipped to handle the pressures that come with fame. In some cases, the intense spotlight and constant scrutiny can take a toll on an individual's mental well-being",
@@ -587,7 +587,7 @@ function DataStore(props) {
     },
     //Data for Fitness Top Posts 51 -54
     {
-      id: 51,
+      id: 57,
       heading: "Systemic Autoimmune Rheumatic Diseases Also Have Mood Disorders ",
       image: "https://images.everydayhealth.com/images/startling-levels-of-depression-anxiety-people-living-with-autoimmune-conditions-1440x810.jpg?w=1110",
       description: "Overall, the symptoms patients reported suggested that 55 percent of them had depression and 57 percent had anxiety, according to study findings published in the journal Rheumatology. Three in four of them also said their doctors rarely, if ever, asked them about their mental health.“Currently there seems to be this collusion of silence, whereby many doctors don’t want to ask about mental health, and patients don’t feel comfortable reporting their mental health symptoms,” says lead study author Melanie Sloan, PhD, of the department of public health and primary care at the University of Cambridge in England.",
@@ -597,7 +597,7 @@ function DataStore(props) {
       url: "https://www.everydayhealth.com/autoimmune-diseases/more-than-half-with-systemic-autoimmune-rheumatic-diseases-also-have-mood-disorders/",
     },
     {
-      id: 52,
+      id: 58,
       heading: "What You Need to Know About the Red Meat Allergy Caused by Tick Bites      ",
       image: "https://images.everydayhealth.com/images/what-you-need-to-know-about-red-meat-allergy-by-tick-bites-1440x810.jpg?w=1110",
       description: "A red meat allergy linked to tick bites may be affecting as many as 450,000 people, according to a new study released by the Centers for Disease Control and Prevention (CDC) on July 27.But it’s likely that number is a significant underestimate of how many people actually have the allergy, known as alpha- gal syndrome.A CDC survey released the same day found that nearly 4 out 5 of healthcare providers had little or no knowledge of the condition.Only 5 percent of the providers surveyed felt “very confident” in their ability to diagnose or manage patients with AGS.“AGS refers to the allergy that can develop following lone star tick bites and causes delayed allergic reactions to beef, pork, lamb, venison, and other forms of mammalian meat and other derived products such as dairy and gelatin,” says Scott Commins, MD, PhD, an associate chief of allergy and immunology at the University of North Carolina at Chapel Hill, and the medical director of the UNC Allergy & Immunology Clinic.Dr.Commins is the coauthor of both studies.",
@@ -607,7 +607,7 @@ function DataStore(props) {
       url: "https://www.everydayhealth.com/allergies/what-you-need-to-know-about-the-red-meat-allergy-caused-by-tick-bites/",
     },
     {
-      id: 53,
+      id: 59,
       heading: " Omega-3 Fatty Acid May Help Prevent Age-Related Hearing Loss",
       image: "https://images.everydayhealth.com/images/omega-3s-prevent-age-related-hearing-loss-1440x810.png?w=1110",
       description: "Omega-3 fatty acids have long been associated with promoting heart health. Now, new research indicates that these nutrients — found in high concentrations in foods such as salmon, walnuts, and flaxseed — may also lower the chances of developing hearing problems as we age. Presented Monday at the annual meeting of the American Society for Nutrition in Boston, the findings showed that middle- aged and older adults with higher levels of the omega - 3 fatty acid docosahexaenoic acid(DHA) were 8 to 20 percent less likely to report age - related hearing issues than those with lower DHA levels.",
@@ -617,7 +617,7 @@ function DataStore(props) {
       url: "https://www.everydayhealth.com/ear-nose-throat/omega-3-fatty-acid-may-help-prevent-age-related-hearing-loss/",
     },
     {
-      id: 54,
+      id: 60,
       heading: "What Is Financial Wellness?",
       image: "https://images.everydayhealth.com/images/emotional-health/stress/fs-2-what-is-financial-wellness-722x406.jpg?w=1110",
       description: "What is financial well-being, other than the absence of money-related stress? How is it related to overall wellness? And how do you know when you have achieved it? According to Everyday Health’s United States of Stress survey, finances are the most common source of stress among men and women.Managing that stress can have real benefits for a person’s health. Many U.S.companies realize that personal finances and health are often closely linked.Nine out of 10 large and mid- sized companies now offer financial wellness programs, and another 10 percent are considering adding them, according to a press release published in May 2018 by the National Business Group on Health(NBGH).Employers believe these programs can boost employees’ productivity, engagement, and health.",
@@ -627,7 +627,7 @@ function DataStore(props) {
       url: "https://www.everydayhealth.com/wellness/united-states-of-stress/what-financial-wellness/",
     },
     {
-      id:72,
+      id:61,
       heading:"Crash diet: You lose a lot more than bodyweight",
       image:"https://www.eatingwell.com/thmb/4TpioaaR69h4sGJZjLkCET1dYY4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mediterranean-diet-plan-for-beginners-ef41f111c95d4df9aec0365614efb78f.jpg",
       smalldes:"“Crash diets require you to skip some of your main meals, significantly limiting your calorie intake throughout the day,” says Paurana. ",
@@ -635,7 +635,7 @@ function DataStore(props) {
       category:"none"
     },
     {
-      id:71,
+      id:62,
       heading:"Mind, body and backpack: How to prep for a trek",
       image:"https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJla2tpbmd8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
       smalldes:"A trek or hike is a fun mind-opening activity that brings you close to nature. The sensory systems heighten as the heart pumps with healthy vigour.",
@@ -646,7 +646,7 @@ function DataStore(props) {
     //Data for Food Page
     //Fitness 55-60
     {
-      id: 55,
+      id: 63,
       heading: "Top 10 Food Tweets Contain Just One Healthy Item: US Study",
       image: "https://i.ndtvimg.com/i/2016-10/chicken-620_620x350_41476776044.jpg",
       description: "The top 10 food related tweets by users in the US contain just one item - chicken - which can qualify as healthy, according to a new study",
@@ -656,7 +656,7 @@ function DataStore(props) {
       url: "https://food.ndtv.com/food-drinks/top-10-food-tweets-contain-just-one-healthy-item-us-study-1475687",
     },
     {
-      id: 56,
+      id: 64,
       heading: "Ten of the Most Impressive Food Heists",
       image: "https://i.ndtvimg.com/mt/cooks/2013-10/beans-med.jpg",
       description: "From baked beans to caviar, food thefts are on the rise. Cheese is the most-stolen food, but walnuts, honey and tomatoes are big business too. Here are 10 ambitious recent heist",
@@ -666,7 +666,7 @@ function DataStore(props) {
       url: "https://food.ndtv.com/food-drinks/ten-of-the-most-impressive-food-heists-694168",
     },
     {
-      id: 57,
+      id: 65,
       heading: "5 Quick and Easy One-Pot Meal Recipes for Busy Working Women",
       image: "https://c.ndtvimg.com/2023-08/u849sc1_achaari-chana-pulao_625x300_02_August_23.jpg",
       description: "Every day, working women face the challenge of preparing three meals, from breakfast to dinner, while juggling their professional and household responsibilities.",
@@ -676,7 +676,7 @@ function DataStore(props) {
       url: "https://food.ndtv.com/food-drinks/5-quick-and-easy-one-pot-meal-recipes-for-busy-working-women-4265314",
     },
     {
-      id: 58,
+      id: 66,
       heading: "Watch: Tech Content Creator Invents Drone To Do Food Deliveries, Video Goes Viral",
       image: "https://c.ndtvimg.com/2023-08/7a3m1p48_viral-tech-content-creators-drone-for-food-delivery_625x300_02_August_23.jpg",
       description: "A viral video shows how a tech content creator invented a pilotless drone and used it to deliver pizza to Zomato customers. Read the reactions below. ",
@@ -686,7 +686,7 @@ function DataStore(props) {
       url: "https://food.ndtv.com/news/tech-content-creator-invents-pilotless-drone-to-do-food-deliveries-video-goes-viral-4262511",
     },
     {
-      id: 59,
+      id: 67,
       heading: "On A Weight Loss Diet? Try This Bottle Gourd Dosa Recipe To Reach Your Goal",
       image: "https://c.ndtvimg.com/2023-07/tmsvqgt8_masala-dosa_625x300_15_July_23.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350",
       description: "If you want to enjoy dosa on a weight loss diet, look no further than this delicious bottle gourd (lauki) dosa. Once you try it, you'll want to make it again and again.",
@@ -696,7 +696,7 @@ function DataStore(props) {
       url: "https://food.ndtv.com/weight-loss/nutritionist-claims-this-dosa-recipe-can-help-you-in-losing-weight-4265718",
     },
     {
-      id: 60,
+      id: 68,
       heading: "9 Best Indian Microwave Recipes | Easy Microwave Recipes",
       image: "https://c.ndtvimg.com/2021-03/2k8rgcio_microwaves3_625x300_11_March_21.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350",
       description: "Indian Microwave Recipes: Find here a list of 9 best Indian microwave recipes that you can prepare at home. From chicken biryani to microwave kadhi, dhokla to kheer and gobhi along with key ingredients and step by step process.",
@@ -707,7 +707,7 @@ function DataStore(props) {
     },
     //Data for Food Top Posts 61 -64
     {
-      id: 61,
+      id: 69,
       heading: "High-Protein Breakfast: How To Make Fried Eggs In A Microwave ",
       image: "https://c.ndtvimg.com/2020-05/rdcvrtb_fried-egg_625x300_29_May_20.jpg",
       description: "Breakfast is said to be one of the most essential meals of the day. We have often heard the saying, 'Eat breakfast like a king, lunch like a prince and dinner like a pauper.' But the attempt to concoct a nutritious breakfast that is satiating too can often get overwhelming. Egg is one easy ingredient that can be cooked in multiple ways for breakfast. What if we told you it is possible to cook a fried egg in a microwave? Your joy will know no bounds when you watch this super quick and easy breakfast recipe. Egg is supposed to be extremely beneficial and nutritious for the body.It is a great source of protein, which helps in the bodybuilding and muscle maintenance function.It also has a number of good Omega- 3 fatty acids which are said to increase the good cholesterol level in the body.Egg is also an essential ingredient for maintaining brain health and proper eyesight and vision.It also provides vitamins and minerals which are important for the body's functioning.",
@@ -717,7 +717,7 @@ function DataStore(props) {
       url: "https://food.ndtv.com/food-drinks/high-protein-breakfast-how-to-make-fried-eggs-in-a-microwave-recipe-video-inside-2237400",
     },
     {
-      id: 62,
+      id: 70,
       heading: "Beyond Chai: 5 Smart Ways You Can Make Use Of Tea Leaves At Home",
       image: "https://c.ndtvimg.com/2022-05/h2b111hg_tea-leaves_625x300_13_May_22.jpg?im=FaceCrop,algorithm=dnn,width=620,height=350",
       description: "We don't need to tell you how great a hot cup of chai is! It is soothing and comforting and helps refuel you anytime during the day. But did you know it can be used in many other ways besides brewing your cuppa? That's right! Tea leaves are multi-functional and have various uses in your daily home and kitchen chores. Today, we will bring your attention to a few such tea leaf usages that can be of great help to you. Here, we'll share tips for using both fresh and used tea leaves. So, what are you waiting for? Grab a pen and paper and take note of the quick tea hacks we are sharing. Read on.Here Are 5 Creative Ways To Use Tea Leaves:1. As fertilizer for your garden:If you have been throwing away the tea leaves after every use, then stop doing it now. Thanks to their rich antioxidant content, tea leaves can make for great natural fertilizer for the plants you are growing in your garden and kitchen area.2. To add colour to your food:This is a very common hack followed in various Indian households. They use the leaves to add a dark brown colour to their food. Now on, whenever you see a bowl of appetizing pindi chole, understand that it has been boiled with tea leaves for colour.",
@@ -727,7 +727,7 @@ function DataStore(props) {
       url: "https://food.ndtv.com/how-to/beyond-chai-5-smart-ways-you-can-make-use-of-tea-leaves-at-home-4264378",
     },
     {
-      id: 63,
+      id: 71,
       heading: "15 Delicious Street Foods Of India To Amp Up Your Tea-Time",
       image: "https://c.ndtvimg.com/2022-07/i1jfa01o_street-food_625x300_20_July_22.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
       description: "Indian street food is made with a melange of spices, ingredients and flavours that give it a special appeal. When you bite into a plate of chaat, tikki, gol gappa and other dishes, we guarantee you'll be hit with a wave of flavours ranging from sweet and spicy to tangy. While some elements of your street food may dissolve quickly in your mouth, others may be crunchy. Whatever the texture is, it will undoubtedly be delectable. The best part, though? Every city in India has something special to offer. Similar to how diverse the nation is, so is the food. For instance, Mumbai is known for vada pav, Delhi for samosa and Kolkata for kathi rolls. If you are someone who loves to try different cuisines, trying out local cuisine should be on top of your radar. In fact, no tour is ever complete without indulging in the authentic street-style delicacies the city has to offer. Whether grilled over an open flame, deep-fried or eaten cold, streetside nooks and stalls are surrounded by swarms of people eating lip-smacking food.",
@@ -737,7 +737,7 @@ function DataStore(props) {
       url: "https://food.ndtv.com/food-drinks/15-delicious-street-foods-of-india-to-amp-up-your-tea-time-3582947",
     },
     {
-      id: 64,
+      id: 72,
       heading: "17 Best Punjabi Recipes | Easy Punjabi Recipes",
       image: "https://i.ndtvimg.com/i/2017-01/sarson-ka-saag_620x350_81484297304.jpg",
       description: "Punjabi Recipes: One of the most impressive things about Punjabi food is its variety. While meat lovers can never have enough of the evergreen Butter Chicken, Bhuna Gosht, Tandoori Chicken and Amritsari Machchi, vegetarian fare is equally delightful. Sarson ka Saag, Chole Bhature and Dal Makhni are just a handful of vegetarian Punjabi specialities with fans across the globe. Think of Punjab and you can imagine its earthy heritage of lush green fields and robust lifestyle. What makes Punjab different from the other states is its culinary treasure, it is a state synonymous with food. Punjabi food is a lot like Punjabis - rich, robust and full of life. Bold textures and hearty ingredients are what make Punjabi cuisine so popular all across North India.",

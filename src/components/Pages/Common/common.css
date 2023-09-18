@@ -20,7 +20,7 @@
 
 /* Article CSS */
 .articleB {
-  width: 100%;
+  width: 96%;
   margin-top: 3rem;
   margin-left: 1rem;
 }
@@ -113,7 +113,7 @@
   height: -moz-fit-content;
   height: fit-content;
   position: absolute;
-  right: -1.6rem;
+  right: 0rem;
   top: 13.7rem;
   width: 30rem;
 }

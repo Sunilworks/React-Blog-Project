@@ -18,7 +18,7 @@ function Description() {
   const cat = latestData[parseInt(path) - 1].category;
   console.log(cat);
 
-  const random = Math.floor(Math.random() * 5);
+  const random = Math.floor(Math.random() * 8);
   console.log(random);
 
   const d = new Date();

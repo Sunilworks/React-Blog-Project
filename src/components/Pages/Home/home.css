@@ -180,6 +180,7 @@ figcaption {
 
 .postsverticalsmall {
   position: relative;
+  margin-left: 2rem;
 }
 
 .post1 {

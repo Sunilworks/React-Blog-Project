@@ -45,7 +45,7 @@ function Article() {
                     <img src={data.image} alt="Technology" />
                     <figcaption>
                       <a href="#!">{data.heading}</a>
-                      <p>{data.description}</p>
+                      <p>{data.des}</p>
                       <span className="bold">{data.footer}</span>
                       <span> / {date}</span>
                     </figcaption>
@@ -86,7 +86,6 @@ function Posts() {
                   <figcaption>
                     <br />
                     <br />
-                    {/* <p>{data.description}</p> */}
                     <span className="bold">{data.footer}</span>
                     <span> / {date}</span>
                   </figcaption>

@@ -21,6 +21,7 @@ function Routing() {
         <Route path="/hollywood" element={<Hollywood />} />
         <Route path="/fitness" element={<Fitness />} />
         <Route path="/food" element={<Food />} />
+        {/* <Route path="/description" element={<Description />} /> */}
         <Route path="/description/:id" element={<Description />} />
         <Route path="/*" element={<Error />} />
       </Routes>

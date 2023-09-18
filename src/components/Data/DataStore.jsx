@@ -12,7 +12,8 @@ function DataStore(props) {
       image: "https://techcrunch.com/wp-content/uploads/2023/07/proprio-header.jpg?w=360&crop=1",
       description: "Surgeries of all kinds have become more and more powerfully assisted by technology, but in most cases it’s still a human holding the scalpel — especially for delicate and complex operations like spinal surgery.",
       footer: "Technology",
-      cat: "Latest",
+      cat1: "Latest",
+      cat: "TArticle",
       url: "https://techcrunch.com/2023/07/27/a-high-tech-third-eye-for-neurosurgeons-proprio-could-change-the-or-forever/",
     },
     {
@@ -21,7 +22,8 @@ function DataStore(props) {
       image: "https://images.everydayhealth.com/images/guide-to-yoga-props-00-722x406.jpg?w=370&crop=1",
       description: "When yoga first began, thousands of years ago, the only “equipment” needed was the human body and the ground.",
       footer: "Fitness",
-      cat: "Latest",
+      cat1: "Latest",
+      cat :"FArticle",
       url: "https://www.everydayhealth.com/yoga/mats-straps-bolsters-and-other-props-to-aid-your-practice/",
     },
     {
@@ -32,7 +34,8 @@ function DataStore(props) {
       description:
         "Elsewhere, 'Oppenheimer' looks to earn a stellar $46 million in its sophomore outing at the domestic box office, the biggest second weekend ever for an R-rated pic ahead of 'Deadpool 2.'",
       footer: "Hollywood",
-      cat: "Latest",
+      cat1: "Latest",
+      cat : "HArticle",
       url: "https://www.hollywoodreporter.com/movies/movie-news/haunted-mansion-box-office-opening-haunted-mansion-1235547428/",
     },
 
@@ -43,7 +46,8 @@ function DataStore(props) {
       image: "https://www.shape.com/thmb/Fn57UZt5UyJZKjEiGt6LqQ_yyhg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/crossfit-health-fitness-benefits-f909ff1c7780402a952ce5a8c21caa39.jpg",
       description: '"Most of the movements you do in CrossFit are compound movements, meaning they recruit muscles from all over your body," says Grayson Wickham, D.P.T., C.S.C.S., a physical therapist and founder of Movement Vault.',
       footer: "Fitness",
-      cat: "Article",
+      cat1: "Article",
+      cat: "FArticle",
       url: "https://www.shape.com/fitness/tips/health-fitness-benefits-crossfit",
     },
     {
@@ -52,7 +56,8 @@ function DataStore(props) {
       image: "https://images.pexels.com/photos/238631/pexels-photo-238631.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       description: "With almost 200 countries to choose from, why should you pick Thailand as your next destination? From delicious food to Bangkok’s nightlife, here are our reasons why you should visit this popular destination in Southeast Asia at least once in your life.",
       footer: "Travel",
-      cat: "Article",
+      cat1: "Article",
+      cat: "FArticle",
       url: "https://theculturetrip.com/asia/thailand/articles/15-reasons-why-you-should-visit-thailand-at-least-once-in-your-life/",
     },
     {
@@ -61,7 +66,8 @@ function DataStore(props) {
       image: "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/08/jawan-destroying-records-shah-rukh-khans-zinda-banda-with-almost-35-million-views-in-under-24-hours-becomes-the-most-viewed-bollywood-track-beating-prabhas-deets-inside-001-324x160.jpg",
       description: "Jawan Destroying Records! Shah Rukh Khan’s Zinda Banda With Almost 35 Million Views In Under 24 Hours Becomes The Most Viewed Bollywood Track Beating Prabhas'",
       footer: "Bollywood",
-      cat: "Article",
+      cat1: "Article",
+      cat: "BPost",
       url: "https://www.koimoi.com/bollywood-news/jawan-destroying-records-shah-rukh-khans-zinda-banda-with-almost-35-million-views-in-under-24-hours-becomes-the-most-viewed-bollywood-track-beating-prabhas/",
     },
     {
@@ -70,7 +76,8 @@ function DataStore(props) {
       image: "https://c.ndtvimg.com/2023-07/rmjkg64_indian-food_625x300_25_July_23.jpg?im=FaceCrop,algorithm=dnn,width=345,height=250",
       description: "India, with its rich heritage and deep-rooted culture, boasts a culinary history as old as time itself. The food habits of the country are deeply rooted in traditions, shaped by centuries of invasions, religious beliefs, and social customs.",
       footer: "Food",
-      cat: "Article",
+      cat1: "Article",
+      cat: "FDArticle",
       url: "https://food.ndtv.com/food-drinks/7-indian-food-traditions-that-are-still-popular-and-hold-relevance-4239105",
     },
 
@@ -81,7 +88,8 @@ function DataStore(props) {
       image: "https://www.youth-hostel.si/assets/images/upload/Globetrotter/2020/10_Okt_Nov_2020/Indija/Bandra_Worli_Sea_Link_Mumbai_India_-_Photo_by_Sid_Saxena_on_Unsplash_-_400x400.jpg",
       description: "Many people also know Mumbai as Bombay (this was the city’s official name until 1995). It’s the capital of the Indian state of Maharashtra and the most densely populated city in India with a population of 18.4 million. If you ever have the opportunity to visit India, Mumbai is a place you definitely must see.",
       footer: "Travel",
-      cat: "Post",
+      cat1: "Post",
+      cat: "FPost",
       url: "https://www.youth-hostel.si/en/travelogues/IN/a-trip-to-the-indian-city-of-mumbai",
     },
     {
@@ -90,7 +98,8 @@ function DataStore(props) {
       image: "https://www.youth-hostel.si/assets/images/upload/Globetrotter/2013/01_Januar_Februar_2013/Indija/Photo_by_Aneesh_Ans_on_Pexels_-_400x400.jpg",
       description: "As locals say, in India every day is a holiday. So I was lucky to be part of the end of Ganesh festival. In Hinduism, there are thousands of gods and goddesses, and Ganesh, the deity with elephant head is really popular. In the evening, I heard drums from far away, crackling firecrackers and loud cheers. 'Indians gone crazy',was the first thing that got to my mind when I saw this scene. ",
       footer: "Discovery",
-      cat: "Post",
+      cat1: "Post",
+      cat: "TArticle",
       url: "https://www.youth-hostel.si/en/travelogues/IN/miracles-of-south-india-part-ii",
     },
     {
@@ -99,7 +108,8 @@ function DataStore(props) {
       image: "https://southasianvoices.org/wp-content/uploads/2022/07/Quad-Tokyo-e1657651080523.png",
       description: "India’s participation in a series of summits—including as part of the Quadrilateral Security Dialogue (QUAD), Shanghai Corporation Organisation (SCO), Brazil, Russia, India, China and South Africa (BRICS) summit, G7 meeting, and Commonwealth Summit—exhibits an internationalist foreign policy.",
       footer: "GeoPolitics",
-      cat: "Post",
+      cat1: "Post",
+      cat: "TPost",
       url: "https://southasianvoices.org/brics-quad-and-indias-multi-alignment-strategy/?gclid=Cj0KCQjw2qKmBhCfARIsAFy8buK499R57kCZMaqaIYwcCL-NpoYmVrDTgzy8O39dQ1rOspnI9QUaVMIaAnZ4EALw_wcB",
     },
     {
@@ -108,7 +118,8 @@ function DataStore(props) {
       image: "https://www.marthastewart.com/thmb/4zX7M1RtoF4SE2BuYP0MXfk8G8M=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/green-tomatoes-md109341_horiz-2767badd4e274fb3ba389ade3db77785.jpgitokYRKAOT34",
       description: "Green-when-ripe tomatoes add freshness and acidity to this mix. The roughly cut flat pieces of egg pasta called maltagliati ('badly cut' in Italian) are often made from pasta scraps left over from cutting another shape. They're available at many Italian markets and at eataly.com. Pappardelle, broken into pieces, is a fine substitution.",
       footer: "Food",
-      cat: "Post",
+      cat1: "Post",
+      cat: "FPost",
       url: "https://www.marthastewart.com/1004096/green-tomatoes-pasta-mint-and-toasted-almonds",
     },
     //Data for Latest Stories 12-14
@@ -119,7 +130,8 @@ function DataStore(props) {
       image: "https://techcrunch.com/wp-content/uploads/2023/07/CMC_7308.jpg?w=370&crop=1",
       description: "The Samsung foldable for most gets a much-improved external screen amid otherwise modest upgrades.",
       footer: "Technology",
-      cat: "Story",
+      cat1: "Story",
+      cat: "TArticle",
       url: "https://techcrunch.com/2023/08/01/samsung-galaxy-z-flip-5-review/",
     },
     {
@@ -128,7 +140,8 @@ function DataStore(props) {
       image: "https://images.thedirect.com/media/article_full/loki-season-2-characters_i1Olgpa.jpg",
       description: "Here's everything you need to know about Thor villain in new trailer.The appearance of Zaniac in the new Loki Season 2 trailer has raised more questions than answers. Here is everything to know about the MCU villain. ",
       footer: "Hollywood",
-      cat: "Story",
+      cat1: "Story",
+      cat: "HArticle",
       url: "https://www.pinkvilla.com/entertainment/hollywood/loki-season-2-who-is-zaniac-heres-everything-you-need-to-know-about-thor-villain-in-new-trailer-1233344",
     },
     {
@@ -137,7 +150,8 @@ function DataStore(props) {
       image: "https://media5.bollywoodhungama.in/wp-content/uploads/2023/08/BREAKING-Gadar-2-gets-10-cuts-from-CBFC-religious-reference-in-the-riot-scene-removed-%E2%80%98Basd-replaced-with-%E2%80%98Idiot-%E2%80%98Tiranga-replaced-with-%E2%80%98Jhande-480x360.jpg",
       description: "The big clash of the year, Gadar 2 vs OMG Oh My God 2, is happening this month. The censor process of both films are over. Bollywood Hungama reported in detail about OMG Oh My God 2’s controversial process.",
       footer: "Bollywood",
-      cat: "Story",
+      cat1: "Story",
+      cat: "BArticle",
       url: "https://www.bollywoodhungama.com/news/bollywood/breaking-gadar-2-gets-10-cuts-cbfc-religious-reference-riot-scene-removed-basd-replaced-idiot-tiranga-replaced/",
     },
 

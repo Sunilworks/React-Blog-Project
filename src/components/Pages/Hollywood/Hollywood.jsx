@@ -1,23 +1,23 @@
 import React, { useContext } from "react";
 import { Store } from "../../Data/DataStore";
-import { useNavigate } from "react-router-dom";
-import "../Common/common.css"
+import { useNavigate, NavLink } from "react-router-dom";
+import "../Common/common.css";
 import Topbar from "../../Topbar/Topbar";
 import Footer from "../../Footer/Footer";
 
 function Hollywood() {
   return (
     <>
-      <Topbar/>
+      <Topbar />
       <Article />
       <Posts />
       <Ads />
       <Footer />
     </>
-  )
+  );
 }
 
-export default Hollywood
+export default Hollywood;
 
 function Article() {
   const d = new Date();
@@ -27,8 +27,7 @@ function Article() {
 
   let navigate = useNavigate();
   return (
-    <div className='articleB'>
-
+    <div className="articleB">
       <div>
         <span className="heading">Hollywood</span>
         <div className="ruler1"></div>
@@ -40,31 +39,26 @@ function Article() {
           .map((data) => {
             return (
               <>
-                <hr className='hr' />
-                <div className="art1">
-
-                  <img src={data.image} alt="Technology" />
-                  <figcaption>
-                    <a href="https://techcrunch.com/2023/07/27/a-high-tech-third-eye-for-neurosurgeons-proprio-could-change-the-or-forever/">
-                      {data.heading}
-                    </a>
-                    <p>{data.description}</p>
-                    <span className="bold">{data.footer}</span>
-                    <span> / {date}</span>
-                  </figcaption>
-
-                </div>
-
+                <NavLink to={`/description/${data.id}`} className="navl">
+                  <hr className="hr" />
+                  <div className="art1">
+                    <img src={data.image} alt="Technology" />
+                    <figcaption>
+                      <a href="#!">{data.heading}</a>
+                      <p>{data.description}</p>
+                      <span className="bold">{data.footer}</span>
+                      <span> / {date}</span>
+                    </figcaption>
+                  </div>
+                </NavLink>
               </>
             );
           })}
       </div>
 
       <button onClick={() => navigate(-1)}>Back</button>
-
-
     </div>
-  )
+  );
 }
 
 function Posts() {
@@ -74,7 +68,6 @@ function Posts() {
   const [latestData] = useContext(Store);
   console.log(latestData);
   return (
-
     <div className="postB">
       <div>
         <span className="heading">Top Posts</span>
@@ -86,33 +79,33 @@ function Posts() {
           .filter((item) => item.cat === "HPost")
           .map((data) => {
             return (
-
-              <div className="post1">
-                <img src={data.image} alt="Technology" />
-                <a href="https://techcrunch.com/2023/07/27/a-high-tech-third-eye-for-neurosurgeons-proprio-could-change-the-or-forever/">
-                  {data.heading}
-                </a>
-                <figcaption>
-                  <br />
-                  <br />
-                  {/* <p>{data.description}</p> */}
-                  <span className="bold">{data.footer}</span>
-                  <span> / {date}</span>
-                </figcaption>
-              </div>
+              <NavLink to={`/description/${data.id}`} className="navl">
+                <div className="post1">
+                  <img src={data.image} alt="Technology" />
+                  <a href="#!">{data.heading}</a>
+                  <figcaption>
+                    <br />
+                    <br />
+                    {/* <p>{data.description}</p> */}
+                    <span className="bold">{data.footer}</span>
+                    <span> / {date}</span>
+                  </figcaption>
+                </div>
+              </NavLink>
             );
           })}
       </div>
     </div>
-  )
+  );
 }
 
 function Ads() {
   return (
-    <div className='ad-boxB'>
-       <img src="https://i.pinimg.com/originals/05/68/a1/0568a1f56526458a01c0dc2557b218d2.gif" alt="bollywood" />
+    <div className="ad-boxB">
+      <img
+        src="https://i.pinimg.com/originals/05/68/a1/0568a1f56526458a01c0dc2557b218d2.gif"
+        alt="bollywood"
+      />
     </div>
-
-  )
+  );
 }
-

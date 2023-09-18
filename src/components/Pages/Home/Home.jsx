@@ -1,17 +1,16 @@
 import React, { useContext } from "react";
+import { NavLink } from "react-router-dom";
 import Header from "../../Header/Header";
 import SimpleImageSlider from "react-simple-image-slider";
 import { Store } from "../../Data/DataStore";
-import "./home.css"
+import "./home.css";
 import Topbar from "../../Topbar/Topbar";
 import Footer from "../../Footer/Footer";
 
-
 function Home() {
-
   return (
     <>
-    <Topbar />
+      <Topbar />
       <Header />
       <div className="home">
         <Latest />
@@ -42,20 +41,20 @@ function Latest() {
 
       <div className="articlesHorizontal">
         {latestData
-          .filter((item) => item.cat === "Latest")
+          .filter((item) => item.cat1 === "Latest")
           .map((data) => {
             return (
               <div className="lat1">
-                <img src={data.image} alt="Technology" />
-                <figcaption>
-                  <a href="https://techcrunch.com/2023/07/27/a-high-tech-third-eye-for-neurosurgeons-proprio-could-change-the-or-forever/">
-                    {data.heading}
-                  </a>
-                  <p>{data.description}</p>
-                  <span className="bold">{data.footer}</span>
-                  <span> / {date}</span>
-                </figcaption>
-              </div>
+                  <NavLink to={`/description/${data.id}`} className="navl">
+                  <img src={data.image} alt="Technology" />
+                  <figcaption>
+                    <a href="#!">{data.heading}</a>
+                    <p>{data.description}</p>
+                    <span className="bold">{data.footer}</span>
+                    <span> / {date}</span>
+                  </figcaption>
+              </NavLink>
+                </div>
             );
           })}
       </div>
@@ -70,8 +69,7 @@ function Article() {
   const [latestData] = useContext(Store);
   console.log(latestData);
   return (
-    <div className='article'>
-
+    <div className="article">
       <div>
         <span className="heading">Latest Articles</span>
         <div className="ruler1"></div>
@@ -79,42 +77,40 @@ function Article() {
 
       <div className="articlesvertical">
         {latestData
-          .filter((item) => item.cat === "Article")
+          .filter((item) => item.cat1 === "Article")
           .map((data) => {
             return (
               <>
-                <hr className='hr' />
-                <div className="art1">
-
-                  <img src={data.image} alt="Technology" />
-                  <figcaption>
-                    <a href="https://techcrunch.com/2023/07/27/a-high-tech-third-eye-for-neurosurgeons-proprio-could-change-the-or-forever/">
-                      {data.heading}
-                    </a>
-                    <p>{data.description}</p>
-                    <span className="bold">{data.footer}</span>
-                    <span> / {date}</span>
-                  </figcaption>
-
-                </div>
+                  <hr className="hr" />
+                <NavLink to={`/description/${data.id}`} className="navl">
+                  <div className="art1">
+                    <img src={data.image} alt="Technology" />
+                    <figcaption>
+                      <a href="#!">{data.heading}</a>
+                      <p>{data.description}</p>
+                      <span className="bold">{data.footer}</span>
+                      <span> / {date}</span>
+                    </figcaption>
+                  </div>
+                </NavLink>
               </>
             );
           })}
       </div>
-
     </div>
-  )
-
+  );
 }
 
 function Ads() {
   return (
     <div className="Ads">
-       <img src="https://www.gifcen.com/wp-content/uploads/2022/01/tom-and-jerry-gif-6.gif" alt="bollywood" />
+      <img
+        src="https://www.gifcen.com/wp-content/uploads/2022/01/tom-and-jerry-gif-6.gif"
+        alt="bollywood"
+      />
     </div>
-  )
+  );
 }
-
 
 function Posts() {
   const d = new Date();
@@ -130,42 +126,53 @@ function Posts() {
 
       <div className="postsverticalsmall">
         {latestData
-          .filter((item) => item.cat === "Post")
+          .filter((item) => item.cat1 === "Post")
           .map((data) => {
             return (
+                  <NavLink to={`/description/${data.id}`} className="navl">
               <div className="post1">
-                <img src={data.image} alt="Technology" />
-                <a href="https://techcrunch.com/2023/07/27/a-high-tech-third-eye-for-neurosurgeons-proprio-could-change-the-or-forever/">
-                  {data.heading}
-                </a>
-                <figcaption>
-                  <br />
-                  <br />
-                  {/* <p>{data.description}</p> */}
-                  <span className="bold">{data.footer}</span>
-                  <span> / {date}</span>
-                </figcaption>
-              </div>
+                  <img src={data.image} alt="Technology" />
+                  <a href="#!">{data.heading}</a>
+                  <figcaption>
+                    <br />
+                    <br />
+                    {/* <p>{data.description}</p> */}
+                    <span className="bold">{data.footer}</span>
+                    <span> / {date}</span>
+                  </figcaption>
+                </div>
+              </NavLink>
             );
           })}
       </div>
     </div>
-  )
+  );
 }
 
 const images = [
-  { url: "https://images.pexels.com/photos/715414/pexels-photo-715414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
-  { url: "https://images.pexels.com/photos/773471/pexels-photo-773471.jpeg?auto=compress&cs=tinysrgb&w=1600" },
-  { url: "https://images.pexels.com/photos/8337433/pexels-photo-8337433.jpeg?auto=compress&cs=tinysrgb&w=1600" },
-  { url: "https://images.pexels.com/photos/92866/pexels-photo-92866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
-  { url: "https://images.pexels.com/photos/236148/pexels-photo-236148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
-  { url: "https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
+  {
+    url: "https://images.pexels.com/photos/715414/pexels-photo-715414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    url: "https://images.pexels.com/photos/773471/pexels-photo-773471.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  },
+  {
+    url: "https://images.pexels.com/photos/8337433/pexels-photo-8337433.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  },
+  {
+    url: "https://images.pexels.com/photos/92866/pexels-photo-92866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    url: "https://images.pexels.com/photos/236148/pexels-photo-236148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
+  {
+    url: "https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  },
 ];
 
 const ImageSlide = () => {
   return (
     <div className="imageSlide">
-
       <div className="slider">
         <SimpleImageSlider
           width={800}
@@ -209,25 +216,23 @@ function Stories() {
 
       <div className="articlesHorizontal">
         {latestData
-          .filter((item) => item.cat === "Story")
+          .filter((item) => item.cat1 === "Story")
           .map((data) => {
             return (
               <div className="lat1">
-                <img src={data.image} alt="Technology" />
-                <figcaption>
-                  <a href="https://techcrunch.com/2023/07/27/a-high-tech-third-eye-for-neurosurgeons-proprio-could-change-the-or-forever/">
-                    {data.heading}
-                  </a>
-                  <p>{data.description}</p>
-                  <span className="bold">{data.footer}</span>
-                  <span> / {date}</span>
-                </figcaption>
-              </div>
+                  <NavLink to={`/description/${data.id}`} className="navl">
+                  <img src={data.image} alt="Technology" />
+                  <figcaption>
+                    <a href="#!">{data.heading}</a>
+                    <p>{data.description}</p>
+                    <span className="bold">{data.footer}</span>
+                    <span> / {date}</span>
+                  </figcaption>
+              </NavLink>
+                </div>
             );
           })}
       </div>
     </div>
   );
 }
-
-

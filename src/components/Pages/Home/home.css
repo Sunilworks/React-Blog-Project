@@ -34,7 +34,7 @@
   box-shadow: 0 0 5px 1px #e8e3e3;
   font-family: Arial, Helvetica, sans-serif;
   margin: 1rem 0;
-  max-height: 42rem;
+  max-height: 30rem;
   max-width: 22rem;
   overflow: hidden;
   position: relative;
@@ -231,4 +231,8 @@ figcaption {
 .story {
   width: 100%;
   margin: 5rem 0 2rem 0;
+}
+
+.navl{
+  text-decoration: none;
 }

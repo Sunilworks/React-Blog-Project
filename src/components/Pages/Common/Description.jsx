@@ -1,35 +1,40 @@
-import React,{useContext} from 'react'
+import React, { useContext } from "react";
 import "./description.css";
 import clap from "../../Images/rythm.svg";
 import share from "../../Images/share.svg";
 import profile from "../../Images/Mask Group 16.png";
 import { BsFacebook, BsTwitter, BsYoutube } from "react-icons/bs";
 import { RiInstagramFill } from "react-icons/ri";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams, NavLink } from "react-router-dom";
 import { Store } from "../../Data/DataStore";
 
 function Description() {
+  const [latestData] = useContext(Store);
+  // console.log(latestData);
 
-  const {id} = useParams()
-  console.log(id);
+  const path = useParams().id;
+  console.log(path);
+
+  const cat = latestData[parseInt(path) - 1].cat;
+  console.log(cat);
+
+  const random = Math.floor(Math.random() * 7);
+  console.log(random);
 
   const d = new Date();
   let date = d.toDateString();
-
-  const [latestData] = useContext(Store);
-  console.log(latestData);
 
   let navigate = useNavigate();
   return (
     <>
       <div className="Dnav">
-          <Link to="/">
-        <div className="logo">
-          <span className="logo1">The</span>
-          <span className="logo2">Siren</span>
-        </div>
-          </Link>
-        <div class="get-started">Get Started</div>
+        <Link to="/">
+          <div className="logo">
+            <span className="logo1">The</span>
+            <span className="logo2">Siren</span>
+          </div>
+        </Link>
+        <div className="get-started">Get Started</div>
       </div>
 
       <div className="maincontent">
@@ -43,83 +48,75 @@ function Description() {
             <span className="share-text">Share this article</span>
           </div>
         </div>
+        {latestData
+          .filter((item) => item.id === parseInt(path))
+          .map((data) => {
+            return (
+              <>
+                <div className="centercontent">
+                  <h1 className="contentheading">{data.heading}</h1>
+                  <div className="profile">
+                    <div className="avatar">
+                      <img src={profile} alt="profile" />
+                      <div className="avatar-info">
+                        <span className="author">Sunil Km</span>
+                        <span className="date">{date} - 10min read</span>
+                      </div>
+                    </div>
+                    <div className="social-icon">
+                      <BsFacebook />
+                      <RiInstagramFill />
+                      <BsTwitter />
+                      <BsYoutube />
+                    </div>
+                  </div>
+                  <img className="img" src={data.image} alt="gadar 2" />
+                  <p className="des">{data.description}</p>
 
-        <div className="centercontent">
-          <h1 class="contentheading">
-            Ameesha Patel Reveals Drawback Of Gadar’s Monstrous Success: “…All
-            Our Other Work Failed In Comparison To That”
-          </h1>
-          <div className="profile">
-            <div className="avatar">
-              <img src={profile} alt="profile" />
-              <div class="avatar-info">
-                <span class="author">Sunil Km</span>
-                <span class="date">{date} - 10min read</span>
-              </div>
-            </div>
-            <div className="social-icon">
-              <BsFacebook />
-              <RiInstagramFill />
-              <BsTwitter />
-              <BsYoutube />
-            </div>
-          </div>
+                  <div className="profile">
+                    <div className="avatar">
+                      <img src={profile} alt="profile" />
+                      <div class="avatar-info">
+                        <b>Written by :</b>
+                        <span className="author">Sunil Km</span>
+                        <span className="date">{date}</span>
+                      </div>
+                    </div>
+                  </div>
 
-          <img
-            className="img"
-            src="https://stat4.bollywoodhungama.in/wp-content/uploads/2023/07/Gadar-2.jpeg"
-            alt="gadar 2"
-          />
-          <p className="des">
-            Actress Ameesha Patel made her Bollywood debut with the blockbuster
-            ‘Kaho Naa… Pyaar Hai in 2000, and a year later, she was seen in the
-            mega-blockbuster‘Gadar: Ek Prem Katha’ in 2001, which she agrees was
-            a game changer for her career but added that it had a flipside
-            too.“I would definitely agree that Gadar 1 was a game-changer for my
-            career. How can it not be? How can one of India’s most iconic films
-            not change a person’s career graph,” Ameesha told IANS.
-          </p>
-
-          <div className="profile">
-            <div className="avatar">
-              <img src={profile} alt="profile" />
-              <div class="avatar-info">
-                <b>Written by :</b>
-                <span class="author">Sunil Km</span>
-                <span class="date">{date}</span>
-              </div>
-            </div>
-          </div>
-
-          <button onClick={() => navigate(-1)}>Back</button>
-        </div>
+                  <button onClick={() => navigate(-1)}>Back</button>
+                </div>
+              </>
+            );
+          })}
       </div>
 
       <div className="morecontent">
         <div>
-      <span className="heading">More Stories From Siren</span>
-        <div className="ruler1"></div>
-      </div>
+          <span className="heading">More Stories From Siren</span>
+          <div className="ruler1"></div>
+        </div>
 
-      <div className="articlesHorizontal">
-        {latestData
-          .filter((item) => item.cat === "Story")
-          .map((data) => {
-            return (
-              <div className="lat1">
-                <img src={data.image} alt="Technology" />
-                <figcaption>
-                  <a href="https://techcrunch.com/2023/07/27/a-high-tech-third-eye-for-neurosurgeons-proprio-could-change-the-or-forever/">
-                    {data.heading}
-                  </a>
-                  <p>{data.description}</p>
-                  <span className="bold">{data.footer}</span>
-                  <span> / {date}</span>
-                </figcaption>
-              </div>
-            );
-          })}
-      </div>
+        <div className="articlesHorizontal">
+          {latestData
+            .filter((item) => item.cat === cat && item.id !== parseInt(path))
+            .slice(random, random + 3)
+            .map((data) => {
+              return (
+                <NavLink to={`/description/${data.id}`} className="navl">
+                  <div className="lat1">
+                    <img src={data.image} alt="Technology" />
+                    <figcaption>
+                      <a href="#!">{data.heading}</a>
+                      <p>{data.description}</p>
+                      <span className="bold">{data.footer}</span>
+                      <span> / {date}</span>
+                    </figcaption>
+                  </div>
+                </NavLink>
+              );
+            })}
+        </div>
       </div>
     </>
   );

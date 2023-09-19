@@ -3,7 +3,7 @@ import "./description.css";
 import clap from "../../Images/rythm.svg";
 import share from "../../Images/share.svg";
 import profile from "../../Images/Mask Group 16.png";
-import { BsFacebook, BsTwitter, BsYoutube } from "react-icons/bs";
+import { BsFacebook, BsGithub, BsTwitter } from "react-icons/bs";
 import { RiInstagramFill } from "react-icons/ri";
 import { Link, useNavigate, useParams, NavLink } from "react-router-dom";
 import { Store } from "../../Data/DataStore";
@@ -67,7 +67,9 @@ function Description() {
                       <BsFacebook />
                       <RiInstagramFill />
                       <BsTwitter />
-                      <BsYoutube />
+                      <NavLink style={({isActive}) =>({color: isActive ? "black" : "black"})} to="https://github.com/Sunilworks">
+                      <BsGithub />
+                      </NavLink>
                     </div>
                   </div>
                   <img className="img" src={data.image} alt="gadar 2" />

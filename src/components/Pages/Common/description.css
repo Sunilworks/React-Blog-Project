@@ -121,9 +121,10 @@
 .social-icon {
   display: inline-flex;
   width: 10rem;
+  font-size: 2rem;
 }
 .social-icon svg {
-  width: 2rem;
+  width: 3rem;
 }
 
 .img {

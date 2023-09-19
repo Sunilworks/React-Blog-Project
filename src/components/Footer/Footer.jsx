@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./footer.css";
 import {
   BsFacebook,
@@ -9,10 +9,15 @@ import {
   BsYoutube,
 } from "react-icons/bs";
 import { RiHome2Fill, RiInstagramFill, RiMailFill, RiPhoneLine } from "react-icons/ri";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 function Footer() {
   const Navi = useNavigate();
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+    });
+
   return (
     // <footer>
     <div className="ft">
@@ -25,7 +30,9 @@ function Footer() {
           <RiInstagramFill />
           <BsYoutube />
           <BsLinkedin />
+          <NavLink style={({isActive}) =>({color: isActive ? "white" : "white"})} to="https://github.com/Sunilworks">
           <BsGithub />
+          </NavLink>
         </div>
       </div>
 

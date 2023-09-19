@@ -256,7 +256,8 @@ button:active {
     display: none;
   }
   .articleB{
-    /* margin-right: -1rem; */
+    margin: 0;
+    margin-top: 1rem;
     width: 96vw;
     display: block;
   }
@@ -302,7 +303,6 @@ button:active {
     position: static;
     width: 80vw;
     font-size: 1rem;
-    margin: auto;
   }
 
   .postB a{

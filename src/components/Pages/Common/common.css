@@ -266,7 +266,6 @@ button:active {
   }
 
   .art1{
-    /* width: 95vw; */
    display: grid;
    grid-template-columns: 8rem 12rem;
    grid-template-rows: auto;

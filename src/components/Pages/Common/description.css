@@ -263,7 +263,7 @@ figcaption {
 @media only screen and (min-width: 280px) and (max-width: 480px)
 {
   .Dnav{
-  width: 98vw;
+  width: 100vw;
   min-height: max-content;
   }
 
@@ -304,7 +304,7 @@ figcaption {
 
   .morecontent{
     /* margin: auto; */
-    width: 100vw;
+    width: 94vw;
   }
 
   .articlesHorizontal{

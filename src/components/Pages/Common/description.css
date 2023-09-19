@@ -270,6 +270,7 @@ figcaption {
   .centercontent{
     height: auto;
     width: 90vw;
+    margin-left: auto;
   }
 
   .profile{

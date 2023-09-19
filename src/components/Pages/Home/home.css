@@ -248,6 +248,7 @@ figcaption {
   .article{
     margin-top: 6rem;
   }
+
   .Ads{
     /* display: block; */
     position: static;
@@ -258,7 +259,7 @@ figcaption {
     height: 34rem;
   }
   .Ads img{
-    width: 17rem;
+    width: 20rem;
   }
 
   .post{

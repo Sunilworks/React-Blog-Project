@@ -264,12 +264,12 @@ button:active {
 
   .art1{
    display: grid;
-   grid-template-columns: 8rem 12rem;
+   grid-template-columns: 10rem 12rem;
    grid-template-rows: auto;
   }
 
   .art1 img{
-    width: 8rem;
+    width: 10rem;
     height: 12rem;
   }
 

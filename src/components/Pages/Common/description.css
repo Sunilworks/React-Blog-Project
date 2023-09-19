@@ -316,7 +316,7 @@ figcaption {
     position: static;
     display: block;
     width: 70vw;
-    margin: auto;
+    margin: 4rem;
   }
   .lat1{
     max-height: 40rem;

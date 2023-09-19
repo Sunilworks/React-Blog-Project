@@ -110,6 +110,9 @@
     width: 100vw;
     font-size: 2rem;
   }
+  .font2{
+    text-decoration: none;
+  }
 
   .navbar{
     display: none;
@@ -122,8 +125,18 @@
     width: 100vw;
     font-size: 2rem;
   }
+  .font2{
+    text-decoration: none;
+  }
 
   .navbar{
-    width: 100vw;
+    width: 100vw
+  }
+
+  .topCenter{
+    margin-left: 3rem;
+  }
+  .topListItem{
+    margin: 1rem;
   }
 }

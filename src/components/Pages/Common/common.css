@@ -248,10 +248,6 @@ button:active {
 /* Media Query */
 @media only screen and (min-width: 280px) and (max-width: 480px)
 {
-  div{
-    display: block;
-  }
-
   .ruler{
     display: none;
   }
@@ -313,7 +309,7 @@ button:active {
     position: static;
     margin: auto;
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     width: 80vw;
   }
   .ad-boxB img{
@@ -321,33 +317,32 @@ button:active {
   }
 
   .articleB button{
-    display: none;
+    position: absolute;
+    width: 6rem;
+    margin-left: 8rem;
+    bottom: -152.5rem;
+    background-color:black;
+    color: #fff;
   }
+
 }
 
-@media only screen and (min-width: 500px) and (max-width: 830px)
+@media only screen and (min-width:480px) and (max-width: 830px)
 {
   .art1{
     display: grid;
-    grid-template-columns: 8rem 12rem;
+    grid-template-columns: 9rem 12rem;
     grid-template-rows: auto;
    }
  
    .art1 img{
      width: 8rem;
-     height: 12rem;
-   }
- 
-   .art1 figcaption{
-     width: 40vw;
-     /* font-size: 20px; */
-     height: 10vh;
+     height: 14rem;
    }
  
    .art1 figcaption a{
      font-size: 0.8rem;
-     line-height: 10px;
-     height: 1rem;
+     line-height: 5px;
    }
  
    .art1 figcaption p{
@@ -358,18 +353,32 @@ button:active {
      font-size: 0.7rem;
    }
    .postB{
-    right: -8rem;
+    right: 4rem;
+    font-size: 0.6rem;
+    width: 20rem;
+  }
+  .post1 a{
+    width: 9rem;
     font-size: 1rem;
+  }
+  .postsverticalsmall{
+    width: 20rem;
   }
   .ad-boxB{
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
-    right: -7rem;
-    height: 44rem;
+    right: 2rem;
+    height: 50rem;
+    width: 20rem;
+  }
+  .ad-boxB img{
+    width: 20rem;
   }
   .articleB button{
     margin-bottom: 2rem;
     margin-left: 20rem;
+    background-color:black;
+    color: #fff;  
   }
 }

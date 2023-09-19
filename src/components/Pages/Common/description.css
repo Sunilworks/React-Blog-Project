@@ -273,6 +273,11 @@ figcaption {
     margin-left: auto;
   }
 
+  .centercontent button{
+    margin-left: 7rem;
+    background-color:black;
+    color: #fff;
+  }
   .profile{
     width: fit-content ;
   }

@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: auto auto;
-  gap: 10px;  
+  gap: 10px;
   justify-items: center;
   align-items: center;
   width: 98%;
@@ -91,4 +91,46 @@
 .grid-images h5 {
   color: rgb(210, 208, 208);
   font-size: 12px;
+}
+/* Media Query */
+@media only screen and (min-width : 280px) and (max-width : 480px)
+{
+   .grid-image-container{
+    display: block;
+    place-items: center;
+    margin-left: 2rem;
+    width: 18rem;
+
+  }
+  
+  .grid-images-one
+   {
+    height: 15rem;
+    width: 19rem;
+    margin-bottom: 10px;
+  }
+
+  .grid-images-two,
+  .grid-images-three{
+    display: none;
+    margin-bottom: 10px;
+    height: 20rem;
+    width: 20rem;
+  }
+}
+@media only screen and (min-width:500px) and (max-width: 830px) 
+{
+  .grid-image-container{
+    gap: 0rem;
+    grid-template-columns: 0.85fr;
+  }
+  .grid-images-one
+   {
+    height: 32rem;
+    width: 30rem;
+  }
+  .grid-images-two,
+  .grid-images-three{
+    width: 12rem;
+  }
 }

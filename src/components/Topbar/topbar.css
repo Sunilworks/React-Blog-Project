@@ -1,6 +1,6 @@
 /* For Heading */
 .top {
-  width: 100%;
+  width: 100vw;
   max-height: 120px;
   position: sticky;
   display: flex;
@@ -101,4 +101,29 @@
   margin-left: 4rem;
   margin-right: 4rem;
   border: 2px solid #f0f0f0;
+}
+
+/* Media Query */
+@media only screen and (min-width: 280px) and (max-width: 480px)
+{
+  .top{
+    width: 100vw;
+    font-size: 2rem;
+  }
+
+  .navbar{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 830px)
+{
+  .top{
+    width: 100vw;
+    font-size: 2rem;
+  }
+
+  .navbar{
+    width: 100vw;
+  }
 }

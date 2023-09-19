@@ -73,3 +73,19 @@
 .left:hover {
   cursor: pointer;
 }
+
+/* Media Query */
+@media only screen and (min-width: 280px) and (max-width:480px) {
+  .Upper{
+    display: block;
+    font-size: 0.8rem;
+    text-align: left;
+  }
+
+  .Mid{
+    flex-direction: column;
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+}

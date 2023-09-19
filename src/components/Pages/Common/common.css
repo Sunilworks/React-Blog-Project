@@ -244,3 +244,84 @@ button:active {
 .navl {
   text-decoration: none;
 }
+
+/* Media Query */
+@media only screen and (min-width: 280px) and (max-width: 480px)
+{
+  div{
+    display: block;
+  }
+
+  .ruler{
+    display: none;
+  }
+  .articleB{
+    /* margin-right: -1rem; */
+    width: 96vw;
+    display: block;
+  }
+
+  .articleB a{
+    font-size: 1rem;
+  }
+
+  .art1{
+    /* width: 95vw; */
+   display: grid;
+   grid-template-columns: 8rem 12rem;
+   grid-template-rows: auto;
+  }
+
+  .art1 img{
+    width: 8rem;
+    height: 12rem;
+  }
+
+  .art1 figcaption{
+    width: 56vw;
+    /* font-size: 20px; */
+    height: 10vh;
+  }
+
+  .art1 figcaption a{
+    font-size: 0.8rem;
+    line-height: 10px;
+    height: 1rem;
+  }
+
+  .art1 figcaption p{
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+  }
+  .art1 figcaption span{
+    font-size: 0.7rem;
+  }
+
+
+  .postB{
+    display: block;
+    position: static;
+    width: 80vw;
+    font-size: 1rem;
+    margin: auto;
+  }
+
+  .postB a{
+    font-size: 1rem;
+  }
+
+  .ad-boxB{
+    position: static;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 80vw;
+  }
+  .ad-boxB img{
+    width: 18rem;
+  }
+
+  .articleB button{
+    display: none;
+  }
+}

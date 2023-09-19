@@ -211,9 +211,9 @@ function DataStore(props) {
     },
     {
       id: 19,
-      heading: "Salaar Part 1 – Ceasefire: Prabhas film to star a big international superstar, to be revealed in the trailer?",
+      heading: "Salaar Part 1 – Ceasefire: Prabhas film to star a big international superstar!",
       image: "https://th-i.thgim.com/public/entertainment/movies/sg8zvz/article67048099.ece/alternates/LANDSCAPE_1200/Salaar%20Teaser.jpg",
-      des: "The hardcore action-studded teaser of Salaar: Part 1 – Ceasefire has brought a storm with its release that has certainly piqued the anticipation at its peak. While we got to see some mega star cast including the rebel Prabhas and Prithviraj Sukumaran in the teaser.",
+      des: "The hardcore action-studded teaser of Salaar: Part 1 – Ceasefire has brought a storm with its release that has certainly piqued the anticipation at its peak.",
       description: "The hardcore action-studded teaser of Salaar: Part 1 – Ceasefire has brought a storm with its release that has certainly piqued the anticipation at its peak. While we got to see some mega star cast including the rebel Prabhas and Prithviraj Sukumaran in the teaser.Among many big names associated with this mega project, we assume that there will be a big international star cast who are a part of the Salaar universe that is still kept under wrap and will be revealed in the trailer?Salaar: Part 1 – Ceasefire is indeed a larger-than-life phenomenon that the audience will get to witness in the theaters. The teaser has subtly propelled the thought of its grandness, what it left behind is, a question, whether the film will have a big international star cast?",
       footer: "Bollywood",
       cat: "BArticle",

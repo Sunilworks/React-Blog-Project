@@ -324,3 +324,52 @@ button:active {
     display: none;
   }
 }
+
+@media only screen and (min-width: 500px) and (max-width: 830px)
+{
+  .art1{
+    display: grid;
+    grid-template-columns: 8rem 12rem;
+    grid-template-rows: auto;
+   }
+ 
+   .art1 img{
+     width: 8rem;
+     height: 12rem;
+   }
+ 
+   .art1 figcaption{
+     width: 40vw;
+     /* font-size: 20px; */
+     height: 10vh;
+   }
+ 
+   .art1 figcaption a{
+     font-size: 0.8rem;
+     line-height: 10px;
+     height: 1rem;
+   }
+ 
+   .art1 figcaption p{
+     font-size: 0.7rem;
+     line-height: 0.7rem;
+   }
+   .art1 figcaption span{
+     font-size: 0.7rem;
+   }
+   .postB{
+    right: -8rem;
+    font-size: 1rem;
+  }
+  .ad-boxB{
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    right: -7rem;
+    height: 44rem;
+  }
+  .articleB button{
+    margin-bottom: 2rem;
+    margin-left: 20rem;
+  }
+}

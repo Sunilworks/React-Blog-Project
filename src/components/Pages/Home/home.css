@@ -246,7 +246,7 @@ figcaption {
     width: 90vw;
   }
   .article{
-    margin-top: 3rem;
+    margin-top: 6rem;
   }
   .Ads{
     /* display: block; */
@@ -258,11 +258,12 @@ figcaption {
     height: 34rem;
   }
   .Ads img{
-    width: 20rem;
+    width: 17rem;
   }
 
   .post{
-    display: none;
+    position: static;
+    margin-top: 2rem;
     width: 22rem;
   }
   .postsverticalsmall{
@@ -270,16 +271,17 @@ figcaption {
     position: none;
   }
   .imageSlide{
-    display: none;
-    width: 8rem;
+    position: static;
+    width: 24rem;
     height: 15rem;
+    margin-left: 0.5rem;
   }
   .slider {
     display: none;
   }
 
   .slider-mobile {
-    display: none;
+    display: block;
     margin: auto;
     place-items: center;
   }

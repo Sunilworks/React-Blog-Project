@@ -252,20 +252,22 @@ figcaption {
   .Ads{
     /* display: block; */
     position: static;
-    margin-top: 2rem;
-    margin-left: 3rem;
+    /* margin-top: 2rem;
+    margin-left: 3rem; */
+    margin: auto;
     right: 14rem;
     width: 20rem;
     height: 34rem;
   }
   .Ads img{
-    width: 20rem;
+    width: 18rem;
   }
 
   .post{
     position: static;
     margin-top: 2rem;
     width: 22rem;
+    margin-bottom: 2rem;
   }
   .postsverticalsmall{
     display: block;
@@ -273,9 +275,9 @@ figcaption {
   }
   .imageSlide{
     position: static;
-    width: 24rem;
+    width: 18.6rem;
     height: 15rem;
-    margin-left: 0.5rem;
+    margin:auto;
   }
   .slider {
     display: none;

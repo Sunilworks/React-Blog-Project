@@ -98,7 +98,7 @@
    .grid-image-container{
     display: block;
     place-items: center;
-    margin-left: 2rem;
+    margin: auto;
     width: 18rem;
 
   }
@@ -106,7 +106,7 @@
   .grid-images-one
    {
     height: 15rem;
-    width: 22rem;
+    width: 18rem;
     margin-bottom: 10px;
   }
 
@@ -115,7 +115,7 @@
     /* display: none; */
     margin-bottom: 10px;
     height: 15rem;
-    width: 22rem;
+    width: 18rem;
   }
 }
 @media only screen and (min-width:500px) and (max-width: 830px) 

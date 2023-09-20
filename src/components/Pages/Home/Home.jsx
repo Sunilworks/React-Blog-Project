@@ -186,7 +186,7 @@ const ImageSlide = () => {
       </div>
       <div className="slider-mobile">
         <SimpleImageSlider
-          width={400}
+          width={300}
           height={250}
           images={images}
           showBullets={false}

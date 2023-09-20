@@ -317,10 +317,8 @@ button:active {
   }
 
   .articleB button{
-    position: absolute;
     width: 6rem;
     margin-left: 10rem;
-    bottom: -152.5rem;
     background-color:black;
     color: #fff;
   }

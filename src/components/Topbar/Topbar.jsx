@@ -1,13 +1,18 @@
 import "./topbar.css";
 import "../../App.css";
 import { NavLink } from "react-router-dom";
-
+import { Squash as Hamburger } from 'hamburger-react'
 function Topbar() {
+
   return (
     <>
       <div className="top">
         <span className="font1">The</span>
         <span className="font2">Siren</span>
+        {/* Hamburger Menu */}
+        <div className="hamburger-menu" >
+            <Hamburger />
+        </div>
       </div>
 
       <div className="navbar">
@@ -35,7 +40,7 @@ function Topbar() {
           </ul>
         </div>
         <div className="topRight">
-          <span></span>
+          
         </div>
       </div>
 

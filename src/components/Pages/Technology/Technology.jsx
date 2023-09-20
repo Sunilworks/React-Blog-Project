@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext,useEffect } from "react";
 import { Store } from "../../Data/DataStore";
 import { useNavigate, NavLink } from "react-router-dom";
 import "../Common/common.css";
@@ -7,6 +7,10 @@ import Footer from "../../Footer/Footer";
 import tech from "../../Images/Tech.jpg";
 
 function Technology() {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+});
   return (
     <>
       <Topbar />

@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { Store } from "../../Data/DataStore";
 import { NavLink, useNavigate } from "react-router-dom";
 import "../Common/common.css";
@@ -7,6 +7,10 @@ import Footer from "../../Footer/Footer";
 import fitness from "../../Images/Fitness.jpg";
 
 function Fitness() {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+});
   return (
     <div className="home">
       <Topbar />

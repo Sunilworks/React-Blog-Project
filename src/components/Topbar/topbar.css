@@ -27,6 +27,10 @@
   opacity: 1;
 }
 
+.hamburger-menu{
+  display: none;
+}
+
 /* For NavBar */
 .navbar {
   /* margin: 1rem 1rem 1rem 1rem; */
@@ -109,9 +113,16 @@
   .top{
     width: 100vw;
     font-size: 2rem;
+    justify-content: flex-start;
   }
-  .font2{
-    text-decoration: none;
+
+  .hamburger-menu{
+  display: block;
+  font-size: 3rem;
+  height: 3rem;
+  margin-left: 4.5rem;
+  text-decoration: none;
+  
   }
 
   .navbar{

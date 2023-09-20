@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { Store } from "../../Data/DataStore";
 import { useNavigate, NavLink } from "react-router-dom";
 import "../Common/common.css";
@@ -6,6 +6,10 @@ import Topbar from "../../Topbar/Topbar";
 import Footer from "../../Footer/Footer";
 
 function Hollywood() {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+});
   return (
     <>
       <Topbar />

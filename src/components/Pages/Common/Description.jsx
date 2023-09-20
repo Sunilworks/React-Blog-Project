@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import "./description.css";
 import clap from "../../Images/rythm.svg";
 import share from "../../Images/share.svg";
@@ -25,6 +25,10 @@ function Description() {
   let date = d.toDateString();
 
   let navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+});
   return (
     <>
       <div className="Dnav">

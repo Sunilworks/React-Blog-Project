@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext,useEffect } from "react";
 import { Store } from "../../Data/DataStore";
 import { NavLink, useNavigate } from "react-router-dom";
 import "../Common/common.css";
@@ -6,6 +6,9 @@ import Topbar from "../../Topbar/Topbar";
 import Footer from "../../Footer/Footer";
 
 function Bollywood() {
+  useEffect(() => {
+    window.scrollTo(0,0);
+});
   return (
     <>
       <Topbar />

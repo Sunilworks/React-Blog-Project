@@ -196,6 +196,18 @@ const ImageSlide = () => {
           loop
         />
       </div>
+      <div className="slider-tab">
+        <SimpleImageSlider
+          width={350}
+          height={250}
+          images={images}
+          showBullets={false}
+          showNavs={true}
+          autoPlay={true}
+          slideDuration={2}
+          loop
+        />
+      </div>
     </div>
   );
 };

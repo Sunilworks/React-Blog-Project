@@ -252,8 +252,9 @@ figcaption {
   .Ads{
     /* display: block; */
     position: static;
-    /* margin-top: 2rem;
-    margin-left: 3rem; */
+     margin-top: 2rem; 
+     margin-bottom: 4rem;
+    /*margin-left: 3rem; */
     margin: auto;
     right: 14rem;
     width: 20rem;

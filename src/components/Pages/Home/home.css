@@ -247,8 +247,10 @@ figcaption {
 {
   .latest{
     height: 85rem;
-    width: 90vw;
+    /* width: 90vw; */
+    margin: auto;
   }
+
   .article{
     margin-top: 6rem;
   }
@@ -261,7 +263,7 @@ figcaption {
     /*margin-left: 3rem; */
     margin: auto;
     right: 14rem;
-    width: 20rem;
+    width: 18rem;
     height: 34rem;
   }
   .Ads img{
@@ -276,7 +278,7 @@ figcaption {
   }
   .postsverticalsmall{
     display: block;
-    position: none;
+    
   }
   .imageSlide{
     position: static;

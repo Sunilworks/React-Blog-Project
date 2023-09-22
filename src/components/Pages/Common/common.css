@@ -274,8 +274,7 @@ button:active {
   }
 
   .art1 figcaption{
-    width: 56vw;
-    /* font-size: 20px; */
+    width: 54vw;
     height: 10vh;
   }
 
@@ -286,7 +285,7 @@ button:active {
   }
 
   .art1 figcaption p{
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     line-height: 0.7rem;
   }
   .art1 figcaption span{
@@ -295,7 +294,7 @@ button:active {
 
 
   .postB{
-    display: block;
+    /* display: block; */ 
     position: static;
     width: 80vw;
     font-size: 1rem;
@@ -309,7 +308,7 @@ button:active {
     position: static;
     margin: auto;
     margin-top: 1rem;
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
     width: 80vw;
   }
   .ad-boxB img{

@@ -7,7 +7,7 @@
   min-height: 5rem;
   color: white;
   background-color: black;
-  padding: 10px;
+  padding-bottom: 10px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
@@ -76,11 +76,12 @@
 @media only screen and (min-width: 280px) and (max-width: 480px) {
   .ft {
     width: 100vw;
+    /* padding-bottom: 10px; */
   }
   .Upper {
     display: block;
     font-size: 0.83rem;
-    text-align: left;
+    text-align: center;
     margin-bottom: 1rem;
   }
   .social {

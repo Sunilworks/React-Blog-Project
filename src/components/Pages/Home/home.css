@@ -324,6 +324,10 @@ figcaption {
     display: none;
   }
 
+  .lat1{
+    max-height: 24rem;
+  }
+
   .slider-mobile{
     display: none;
   }
